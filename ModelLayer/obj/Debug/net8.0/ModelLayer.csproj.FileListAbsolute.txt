@@ -1,0 +1,13 @@
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\bin\Debug\net8.0\ModelLayer.deps.json
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\bin\Debug\net8.0\ModelLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\bin\Debug\net8.0\ModelLayer.pdb
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.csproj.AssemblyReference.cache
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.AssemblyInfoInputs.cache
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.AssemblyInfo.cs
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.sourcelink.json
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\refint\ModelLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ModelLayer.pdb
+C:\Users\NANDINI\source\repos\FundooNotes\ModelLayer\obj\Debug\net8.0\ref\ModelLayer.dll
