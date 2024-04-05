@@ -56,7 +56,7 @@ namespace Repository.Service
                 if (!tableexist)
                 {
 
-                    await connection.ExecuteAsync("CREATE TABLE Collaboration(CollaborationId int identity(1,1),UserId int FOREIGN KEY REFERENCES Users(UserId),NoteId int FOREIGN KEY REFERENCES Notes(NoteId),CollabEmail nvarchar(100) FOREIGN KEY REFERENCES Users(Email));");
+                    await connection.ExecuteAsync("CREATE TABLE Collaboration(CollaborationId int identity(1,1) primary key,UserId int FOREIGN KEY REFERENCES Users(UserId),NoteId int FOREIGN KEY REFERENCES Notes(NoteId),CollabEmail nvarchar(100) FOREIGN KEY REFERENCES Users(Email));");
                 }
                 else
                 {
@@ -94,5 +94,6 @@ namespace Repository.Service
             }
         }
     
+
 }
 }

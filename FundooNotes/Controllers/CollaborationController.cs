@@ -1,4 +1,5 @@
 ﻿using BussinesLayer.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer;
@@ -45,7 +46,7 @@ namespace FundooNotes.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
-
+        [Authorize]
         [HttpGet("GetByid")]
 
         public async Task<IActionResult> GetCollabbyid(int Collabid)

@@ -26,6 +26,8 @@ namespace Repository.Service
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_configuration["Jwt:SecretKey"]);
+            var issuer = _configuration["Jwt:Issuer"];
+            var audience = _configuration["Jwt:Audience"];
 
             // Ensure the key size is at least 256 bits (32 bytes)
             if (key.Length < 32)
