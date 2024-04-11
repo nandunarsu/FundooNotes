@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Service
 {
-    public class NotesServicebl : INotesbl
+    public class NotesServicebl : Interface.INotes
     {
-        private readonly INotes _notesInterface;
+        private readonly Repository.Interface.INotes _notesInterface;
 
-        public NotesServicebl(INotes notesInterface)
+        public NotesServicebl(Repository.Interface.INotes notesInterface)
         {
             _notesInterface = notesInterface;
         }

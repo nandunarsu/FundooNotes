@@ -27,9 +27,7 @@ C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\runtimes\
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\BussinesLayer.dll
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\ModelLayer.dll
-C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\Repository.dll
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\BussinesLayer.pdb
-C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\Repository.pdb
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\ModelLayer.pdb
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\obj\Debug\net8.0\FundooNotes.csproj.AssemblyReference.cache
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\obj\Debug\net8.0\FundooNotes.GeneratedMSBuildEditorConfig.editorconfig
@@ -53,3 +51,8 @@ C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\obj\Debug\net8.0\refint\Fu
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\obj\Debug\net8.0\FundooNotes.pdb
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\obj\Debug\net8.0\FundooNotes.genruntimeconfig.cache
 C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\obj\Debug\net8.0\ref\FundooNotes.dll
+C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\RepositoryLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\RepositoryLayer.pdb
+C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\NLog.dll
+C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes\bin\Debug\net8.0\NLog.Web.AspNetCore.dll

@@ -9,8 +9,25 @@ using Repository.Context;
 using Repository.Interface;
 using Repository.Service;
 using System.Text;
+using NLog;
+using NLog.Web;
+using NLog.Extensions.Logging;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
 
 var builder = WebApplication.CreateBuilder(args);
+//builder.Logging.ClearProviders();
+builder.Logging.AddDebug();
+
+var logpath = Path.Combine(Directory.GetCurrentDirectory(), "Logs");
+NLog.GlobalDiagnosticsContext.Set("LogDirectory", logpath);
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+builder.Host.UseNLog();
+
+
+
 
 // Add services to the container.
 
@@ -19,21 +36,24 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
+
 builder.Services.AddSingleton<DapperContext>();
 
-builder.Services.AddScoped<IRegistration, RegistrationService>();
-builder.Services.AddScoped<IRegistrationbl, RegistrationServicebl>();
+builder.Services.AddScoped<Repository.Interface.IRegistration, RegistrationService>();
+builder.Services.AddScoped<BussinesLayer.Interface.IRegistration, RegistrationServicebl>();
 builder.Services.AddScoped<IAuthService,AuthService>();
-builder.Services.AddScoped<IEmail, EmailService>();
-builder.Services.AddScoped<IEmailbl, EmailServicebl>();
+builder.Services.AddScoped<Repository.Interface.IEmail, EmailService>();
+builder.Services.AddScoped<BussinesLayer.Interface.IEmail, EmailServicebl>();
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddScoped(sp => sp.GetRequiredService<IOptions<EmailSettings>>().Value);
-builder.Services.AddScoped<INotes, NotesService>();
-builder.Services.AddScoped<INotesbl,NotesServicebl>();
-builder.Services.AddScoped<ICollaboration, CollaborationService>();
-builder.Services.AddScoped<ICollaborationbl, CollaborationServicebl>();
-builder.Services.AddScoped<ILabel,LabelRepository>();
-builder.Services.AddScoped<ILabelbl,LabelRepositorybl>();
+builder.Services.AddScoped<Repository.Interface.INotes, NotesService>();
+builder.Services.AddScoped<BussinesLayer.Interface.INotes, NotesServicebl>();
+builder.Services.AddScoped<Repository.Interface.ICollaboration, CollaborationService>();
+builder.Services.AddScoped<BussinesLayer.Interface.ICollaboration, CollaborationServicebl>();
+builder.Services.AddScoped<Repository.Interface.ILabel, LabelRepository>();
+builder.Services.AddScoped<BussinesLayer.Interface.ILabel, LabelRepositorybl>();
 
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);
 

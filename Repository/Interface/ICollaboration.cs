@@ -11,7 +11,7 @@ namespace Repository.Interface
     public interface ICollaboration
     {
         public Task<bool> AddCollaborator(int noteid, CollaborationRequestModel model, int userId);
-        public Task RemoveCollaborator(int NoteId, CollaborationRequestModel Request, int UserId);
+        public Task RemoveCollaborator(int CollabId);
 
         public Task<IEnumerable<object>> GetCollaborationbyid(int CollabId);
     }

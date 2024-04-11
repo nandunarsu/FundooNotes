@@ -1,0 +1,151 @@
+2024-04-10 17:55:57.8982 ${level} User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 17:55:58.4859 ${level} Now listening on: https://localhost:7209
+2024-04-10 17:55:58.4859 ${level} Now listening on: http://localhost:5152
+2024-04-10 17:55:58.4922 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-10 17:55:58.4922 ${level} Hosting environment: Development
+2024-04-10 17:55:58.4922 ${level} Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-10 17:56:00.1968 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-10 17:56:01.1246 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 937.5653ms
+2024-04-10 17:56:01.1836 ${level} Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-10 17:56:01.1836 ${level} Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-10 17:56:01.1960 ${level} Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 12.4043ms
+2024-04-10 17:56:01.2957 ${level} Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 112.6438ms
+2024-04-10 17:56:01.4204 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-10 17:56:01.8026 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 382.5691ms
+2024-04-10 17:56:54.6107 ${level} User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 17:56:55.1396 ${level} Now listening on: https://localhost:7209
+2024-04-10 17:56:55.1396 ${level} Now listening on: http://localhost:5152
+2024-04-10 17:56:55.1396 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-10 17:56:55.1396 ${level} Hosting environment: Development
+2024-04-10 17:56:55.1396 ${level} Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-10 17:56:57.0646 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-10 17:56:57.8023 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 753.8427ms
+2024-04-10 17:56:57.8861 ${level} Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-10 17:56:57.8861 ${level} Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-10 17:56:57.9036 ${level} Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 17.1303ms
+2024-04-10 17:56:58.1728 ${level} Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 286.9249ms
+2024-04-10 17:56:58.2946 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-10 17:56:58.6981 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 404.4807ms
+2024-04-10 17:57:57.0631 ${level} Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 69
+2024-04-10 17:57:57.1066 ${level} Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-10 17:57:57.1610 ${level} Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-10 17:57:57.1842 ${level} Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 8.1571ms
+2024-04-10 17:57:57.1842 ${level} Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-10 17:57:57.1953 ${level} An unhandled exception has occurred while executing the request.
+2024-04-10 17:57:57.2580 ${level} Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 500 - text/plain;+charset=utf-8 194.8760ms
+2024-04-10 18:04:49.2851 ${level} User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 18:04:49.8375 ${level} Now listening on: https://localhost:7209
+2024-04-10 18:04:49.8375 ${level} Now listening on: http://localhost:5152
+2024-04-10 18:04:49.8375 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-10 18:04:49.8375 ${level} Hosting environment: Development
+2024-04-10 18:04:49.8375 ${level} Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-10 18:04:51.8705 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-10 18:04:52.5301 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 662.6925ms
+2024-04-10 18:04:52.5606 ${level} Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-10 18:04:52.5815 ${level} Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-10 18:04:52.6046 ${level} Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 44.0522ms
+2024-04-10 18:04:52.7276 ${level} Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 146.2111ms
+2024-04-10 18:04:52.8641 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-10 18:04:53.2524 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 388.4600ms
+2024-04-10 18:05:48.7370 ${level} Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 69
+2024-04-10 18:05:48.7690 ${level} Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-10 18:05:48.8156 ${level} Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-10 18:05:51.3055 ${level} Login Successful
+2024-04-10 18:05:51.3055 ${level} Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-10 18:05:51.3310 ${level} Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 2504.0364ms
+2024-04-10 18:05:51.3310 ${level} Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-10 18:05:51.3310 ${level} Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 200 - text/plain;+charset=utf-8 2596.5579ms
+2024-04-10 18:14:18.5009 ${level} User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 18:14:19.0623 ${level} Now listening on: https://localhost:7209
+2024-04-10 18:14:19.0623 ${level} Now listening on: http://localhost:5152
+2024-04-10 18:14:19.0623 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-10 18:14:19.0623 ${level} Hosting environment: Development
+2024-04-10 18:14:19.0623 ${level} Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-10 18:14:19.7411 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-10 18:14:21.0934 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 1364.9482ms
+2024-04-10 18:14:21.1998 ${level} Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-10 18:14:21.2451 ${level} Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-10 18:14:21.2451 ${level} Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 47.8658ms
+2024-04-10 18:14:21.3651 ${level} Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 120.0371ms
+2024-04-10 18:14:21.5189 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-10 18:14:21.8834 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 364.6122ms
+2024-04-10 18:14:59.1649 ${level} Request starting HTTP/2 POST https://localhost:7209/api/Registration/RegisterUser - application/json 96
+2024-04-10 18:14:59.2500 ${level} Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-04-10 18:14:59.3631 ${level} Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-10 18:15:00.1245 ${level} Executing ObjectResult, writing value of type 'System.String'.
+2024-04-10 18:15:00.1407 ${level} Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 762.5219ms
+2024-04-10 18:15:00.1407 ${level} Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-04-10 18:15:00.1407 ${level} Request finished HTTP/2 POST https://localhost:7209/api/Registration/RegisterUser - 500 - text/plain;+charset=utf-8 976.6504ms
+2024-04-10 18:15:10.6611 ${level} Request starting HTTP/2 GET https://localhost:7209/api/Registration - - -
+2024-04-10 18:15:10.6882 ${level} Executing endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-10 18:15:10.7067 ${level} Route matched with {action = "GetUserDetails", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-10 18:15:11.4117 ${level} Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Repository.Entity.Registration, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-10 18:15:11.4201 ${level} Executed action FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes) in 713.0496ms
+2024-04-10 18:15:11.4201 ${level} Executed endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-10 18:15:11.4201 ${level} Request finished HTTP/2 GET https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 764.3096ms
+2024-04-10 18:44:21.4882 ${level} User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 18:44:22.5326 ${level} Now listening on: https://localhost:7209
+2024-04-10 18:44:22.5326 ${level} Now listening on: http://localhost:5152
+2024-04-10 18:44:22.5374 ${level} Application started. Press Ctrl+C to shut down.
+2024-04-10 18:44:22.5374 ${level} Hosting environment: Development
+2024-04-10 18:44:22.5374 ${level} Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-10 18:44:23.2990 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-10 18:44:24.0359 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 739.8480ms
+2024-04-10 18:44:24.1130 ${level} Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-10 18:44:24.1180 ${level} Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-10 18:44:24.2480 ${level} Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 129.8183ms
+2024-04-10 18:44:24.3654 ${level} Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 252.4986ms
+2024-04-10 18:44:24.4980 ${level} Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-10 18:44:24.8906 ${level} Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 393.0232ms
+2024-04-10 18:44:35.7676 ${level} Request starting HTTP/2 GET https://localhost:7209/api/Registration - - -
+2024-04-10 18:44:35.7821 ${level} Executing endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-10 18:44:35.8162 ${level} Route matched with {action = "GetUserDetails", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-10 18:44:36.3560 ${level} got details
+2024-04-10 18:44:36.3560 ${level} Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Repository.Entity.Registration, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-10 18:44:36.3827 ${level} Executed action FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes) in 556.955ms
+2024-04-10 18:44:36.3827 ${level} Executed endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-10 18:44:36.3827 ${level} Request finished HTTP/2 GET https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 617.5798ms
+2024-04-10 21:13:05.9339|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 21:13:06.5057|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-10 21:13:06.5057|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-10 21:13:06.5057|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-10 21:13:06.5057|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-10 21:13:06.5057|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-10 21:13:11.6540|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-10 21:13:12.6813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-10 21:13:12.6813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 1052.6673ms
+2024-04-10 21:13:12.6954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 14.1734ms
+2024-04-10 21:13:12.6954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-10 21:13:12.8618|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 175.1157ms
+2024-04-10 21:13:13.0080|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-10 21:13:13.3731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 365.1230ms
+2024-04-10 21:13:26.0179|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/api/Registration - - -
+2024-04-10 21:13:26.0294|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-10 21:13:26.0622|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUserDetails", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-10 21:13:26.5390|INFO|FundooNotes.Controllers.RegistrationController|got details
+2024-04-10 21:13:26.5390|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Repository.Entity.Registration, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-10 21:13:26.5640|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes) in 494.3284ms
+2024-04-10 21:13:26.5640|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-10 21:13:26.5640|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 548.0172ms
+2024-04-10 21:14:40.2332|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-10 21:14:40.7414|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-10 21:14:40.7414|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-10 21:14:40.7414|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-10 21:14:40.7414|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-10 21:14:40.7414|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-10 21:14:41.3288|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-10 21:14:41.8225|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 498.5563ms
+2024-04-10 21:14:41.8625|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-10 21:14:41.8625|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-10 21:14:41.8779|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 13.3787ms
+2024-04-10 21:14:41.9637|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 101.1164ms
+2024-04-10 21:14:42.1130|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-10 21:14:42.3836|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 270.5922ms
+2024-04-10 21:15:48.3345|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 69
+2024-04-10 21:15:48.3345|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-10 21:15:48.3868|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-10 21:15:49.7061|INFO|FundooNotes.Controllers.RegistrationController|Login Successful
+2024-04-10 21:15:49.7334|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-10 21:15:49.7578|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 1349.7371ms
+2024-04-10 21:15:49.7578|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-10 21:15:49.7578|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 200 - text/plain;+charset=utf-8 1427.9636ms

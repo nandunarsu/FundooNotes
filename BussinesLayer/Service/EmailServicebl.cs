@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Service
 {
-    public class EmailServicebl : IEmailbl
+    public class EmailServicebl : Interface.IEmail
     {
-        private readonly IEmail emailrepo;
+        private readonly Repository.Interface.IEmail emailrepo;
 
-        public EmailServicebl(IEmail _emailrepo)
+        public EmailServicebl(Repository.Interface.IEmail _emailrepo)
         {
             this.emailrepo = _emailrepo;
         }

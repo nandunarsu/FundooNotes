@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Service
 {
-    public class LabelRepositorybl : ILabelbl
+    public class LabelRepositorybl : Interface.ILabel
     {
-        private readonly ILabel ilabel;
-        public LabelRepositorybl(ILabel label)
+        private readonly Repository.Interface.ILabel ilabel;
+        public LabelRepositorybl(Repository.Interface.ILabel label)
         {
             this.ilabel = label;
         }

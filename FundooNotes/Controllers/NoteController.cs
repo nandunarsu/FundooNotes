@@ -9,13 +9,13 @@ namespace FundooNotes.Controllers
     [ApiController]
     public class NoteController : ControllerBase
     {
-        private readonly INotesbl _notesBL;
+        private readonly INotes _notesBL;
 
-        public NoteController(INotesbl notesBL)
+        public NoteController(INotes notesBL)
         {
             this._notesBL = notesBL;
         }
-        [HttpPost("AddingNotes")]
+        [HttpPost()]
 
         public async Task<IActionResult> CreateNote(CreateNoteRequest createNoteRequest)
         {
@@ -30,12 +30,13 @@ namespace FundooNotes.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpGet("DisplayNotes")]
+        [HttpGet("DisplayNotesbyid")]
 
         public async Task<IActionResult> DisplayNote(int userId)
         {
             try
             {
+
                 var note = await _notesBL.GetAllNotebyuserid(userId);
                 return Ok(note);
             }
@@ -45,7 +46,7 @@ namespace FundooNotes.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpPut("Updatebynotesd")]
+        [HttpPut]
         public async Task<IActionResult> UpdateNote(CreateNoteRequest updatenote, int NoteId)
         {
             try
@@ -60,7 +61,7 @@ namespace FundooNotes.Controllers
             }
         }
 
-        [HttpDelete("Deletebynoteiduserid")]
+        [HttpDelete]
         public async Task<IActionResult> DeleteNote(int noteId, int userId)
         {
             try

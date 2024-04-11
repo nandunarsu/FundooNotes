@@ -1,0 +1,279 @@
+2024-04-11 10:26:45.1645|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 10:26:46.7939|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 10:26:46.7939|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 10:26:46.7939|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 10:26:46.7939|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 10:26:46.7939|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 10:26:48.1574|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 10:26:49.1153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 10:26:49.1153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 972.1557ms
+2024-04-11 10:26:49.1153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 10:26:49.1372|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 20.1960ms
+2024-04-11 10:26:49.2350|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 113.4124ms
+2024-04-11 10:26:49.3680|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 10:26:49.6785|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 311.0028ms
+2024-04-11 10:28:20.7490|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 69
+2024-04-11 10:28:20.7835|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-11 10:28:20.8463|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 10:28:22.9006|INFO|FundooNotes.Controllers.RegistrationController|Login Successful
+2024-04-11 10:28:22.9006|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 10:28:22.9193|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 2065.6083ms
+2024-04-11 10:28:22.9193|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-04-11 10:28:22.9193|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 200 - text/plain;+charset=utf-8 2172.1909ms
+2024-04-11 10:55:12.4394|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 10:55:12.9942|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 10:55:12.9942|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 10:55:12.9942|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 10:55:12.9942|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 10:55:12.9942|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 10:55:14.6251|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 10:55:15.3700|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 757.9700ms
+2024-04-11 10:55:15.4702|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 10:55:15.4702|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 10:55:15.4983|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 30.4419ms
+2024-04-11 10:55:15.6499|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 178.7841ms
+2024-04-11 10:55:15.7878|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 10:55:16.1705|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 382.6524ms
+2024-04-11 10:55:34.7094|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/api/Registration - - -
+2024-04-11 10:55:34.7336|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-11 10:55:34.7743|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUserDetails", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 10:55:35.2578|INFO|FundooNotes.Controllers.RegistrationController|got details
+2024-04-11 10:55:35.2578|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Repository.Entity.Registration, RepositoryLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-11 10:55:35.2884|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes) in 502.1698ms
+2024-04-11 10:55:35.2884|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.GetUserDetails (FundooNotes)'
+2024-04-11 10:55:35.2884|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 581.9392ms
+2024-04-11 13:19:24.0335|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 13:19:24.6154|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 13:19:24.6154|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 13:19:24.6154|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 13:19:24.6154|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 13:19:24.6154|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 13:19:27.9017|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 13:19:28.5545|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 13:19:28.5545|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 13:19:28.5764|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 688.0440ms
+2024-04-11 13:19:28.5764|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 20.6583ms
+2024-04-11 13:19:28.6618|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 100.3131ms
+2024-04-11 13:19:28.7925|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 13:19:29.0743|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 282.2321ms
+2024-04-11 13:20:18.0385|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:7209/api/Collaboration?NoteId=3&UserId=2 - application/json 40
+2024-04-11 13:20:18.0655|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 13:20:18.1168|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RemoveCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveCollaborator(Int32, ModelLayer.CollaborationRequestModel, Int32) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-04-11 13:20:18.8142|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 13:20:18.8249|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes) in 698.1494ms
+2024-04-11 13:20:18.8249|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 13:20:18.8249|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:7209/api/Collaboration?NoteId=3&UserId=2 - 200 - text/plain;+charset=utf-8 788.4416ms
+2024-04-11 13:20:59.3591|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:7209/api/Collaboration?NoteId=1&UserId=1 - application/json 40
+2024-04-11 13:20:59.3648|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 13:20:59.3648|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RemoveCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveCollaborator(Int32, ModelLayer.CollaborationRequestModel, Int32) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-04-11 13:20:59.3967|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 13:20:59.3967|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes) in 31.0424ms
+2024-04-11 13:20:59.3967|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 13:20:59.3967|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:7209/api/Collaboration?NoteId=1&UserId=1 - 200 - text/plain;+charset=utf-8 39.6280ms
+2024-04-11 14:28:00.5063|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 14:28:00.9564|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 14:28:00.9564|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 14:28:00.9600|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 14:28:00.9600|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 14:28:00.9600|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 14:28:01.6627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 14:28:02.2839|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 598.7786ms
+2024-04-11 14:28:02.3057|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 14:28:02.3057|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 14:28:02.3236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 17.8417ms
+2024-04-11 14:28:02.4184|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 112.8788ms
+2024-04-11 14:28:02.5340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 14:28:02.8722|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 338.1639ms
+2024-04-11 14:28:13.4396|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:7209/api/Collaboration?CollabId=1 - - -
+2024-04-11 14:28:13.4593|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 14:28:13.5177|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RemoveCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveCollaborator(Int32) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-04-11 14:28:14.2457|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 14:28:14.2620|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes) in 729.9139ms
+2024-04-11 14:28:14.2620|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 14:28:14.2620|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:7209/api/Collaboration?CollabId=1 - 200 - text/plain;+charset=utf-8 827.2318ms
+2024-04-11 14:28:48.7323|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/api/Collaboration/GetByid?Collabid=2 - - -
+2024-04-11 14:28:48.8042|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-11 14:28:48.8042|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-04-11 14:28:48.8042|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/api/Collaboration/GetByid?Collabid=2 - 401 0 - 116.1719ms
+2024-04-11 14:30:22.3742|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 14:30:22.7856|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 14:30:22.7867|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 14:30:22.7867|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 14:30:22.7867|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 14:30:22.7867|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 14:30:24.4844|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 14:30:25.2344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 14:30:25.2344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 760.4537ms
+2024-04-11 14:30:25.2344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 14:30:25.2511|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 17.0164ms
+2024-04-11 14:30:25.3823|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 143.9402ms
+2024-04-11 14:30:25.5075|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 14:30:25.8114|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 303.8860ms
+2024-04-11 14:30:34.1690|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 DELETE https://localhost:7209/api/Collaboration?CollabId=2 - - -
+2024-04-11 14:30:34.1920|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 14:30:34.2441|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "RemoveCollaborator", controller = "Collaboration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RemoveCollaborator(Int32) on controller FundooNotes.Controllers.CollaborationController (FundooNotes).
+2024-04-11 14:30:34.9460|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 14:30:34.9645|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes) in 703.4081ms
+2024-04-11 14:30:34.9645|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.CollaborationController.RemoveCollaborator (FundooNotes)'
+2024-04-11 14:30:34.9645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 DELETE https://localhost:7209/api/Collaboration?CollabId=2 - 200 - text/plain;+charset=utf-8 801.5592ms
+2024-04-11 14:49:55.2236|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - - 0
+2024-04-11 14:49:55.2489|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 14:49:55.2583|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 14:49:55.2583|INFO|FundooNotes.Controllers.RegistrationController|Email Sent
+2024-04-11 14:49:59.4689|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 14:49:59.4845|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes) in 4225.6266ms
+2024-04-11 14:49:59.4901|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 14:49:59.5062|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - 200 - text/plain;+charset=utf-8 4282.2940ms
+2024-04-11 14:51:26.5500|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=937525&Newpassword=NandiniNK%40 - - 0
+2024-04-11 14:51:26.5578|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 14:51:26.5578|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 14:51:26.5699|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 14:51:27.3518|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 14:51:27.3518|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 784.5868ms
+2024-04-11 14:51:27.3518|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 14:51:27.3518|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=937525&Newpassword=NandiniNK%40 - 200 - text/plain;+charset=utf-8 810.0424ms
+2024-04-11 14:51:54.1780|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=937525&Newpassword=NanDinInk%40 - - 0
+2024-04-11 14:51:54.1780|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 14:51:54.1946|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 14:51:54.2136|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 14:51:54.8637|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 14:51:54.8637|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 658.0702ms
+2024-04-11 14:51:54.8679|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 14:51:54.8679|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=937525&Newpassword=NanDinInk%40 - 200 - text/plain;+charset=utf-8 697.4592ms
+2024-04-11 15:35:43.4662|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 15:35:44.0527|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 15:35:44.0527|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 15:35:44.0527|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 15:35:44.0527|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 15:35:44.0527|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 15:35:44.7645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 15:35:45.4468|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 15:35:45.4468|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 15:35:45.4752|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 24.3042ms
+2024-04-11 15:35:45.4752|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 726.4183ms
+2024-04-11 15:35:45.5547|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 108.1272ms
+2024-04-11 15:35:45.7138|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 15:35:46.0079|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 294.1398ms
+2024-04-11 15:36:09.8452|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - - 0
+2024-04-11 15:36:09.8974|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:36:09.9375|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:36:09.9787|INFO|FundooNotes.Controllers.RegistrationController|Email Sent
+2024-04-11 15:36:13.9473|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:36:13.9606|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes) in 4010.0504ms
+2024-04-11 15:36:13.9606|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:36:13.9606|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - 200 - text/plain;+charset=utf-8 4117.9787ms
+2024-04-11 15:37:09.0002|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=983724&Newpassword=Nandu%40123 - - 0
+2024-04-11 15:37:09.0154|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:37:09.0292|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:37:09.0373|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 15:37:09.8544|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:37:09.8544|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 823.9341ms
+2024-04-11 15:37:09.8544|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:37:09.8544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=983724&Newpassword=Nandu%40123 - 200 - text/plain;+charset=utf-8 855.8678ms
+2024-04-11 15:40:04.0947|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 15:40:04.7212|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 15:40:04.7212|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 15:40:04.7292|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 15:40:04.7292|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 15:40:04.7292|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 15:40:05.5612|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 15:40:06.5191|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 974.9357ms
+2024-04-11 15:40:06.5878|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 15:40:06.5878|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 15:40:06.6083|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 20.1586ms
+2024-04-11 15:40:06.7452|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 156.3302ms
+2024-04-11 15:40:06.8837|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 15:40:07.2775|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 394.9394ms
+2024-04-11 15:40:28.9415|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - - 0
+2024-04-11 15:40:28.9630|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:40:29.0060|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:40:29.0488|INFO|FundooNotes.Controllers.RegistrationController|Email Sent
+2024-04-11 15:40:33.1718|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:40:33.1854|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes) in 4166.1551ms
+2024-04-11 15:40:33.1854|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:40:33.1854|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - 200 - text/plain;+charset=utf-8 4245.1107ms
+2024-04-11 15:41:06.6739|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=495936&Newpassword=Nandu%40123 - - 0
+2024-04-11 15:41:06.6839|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:41:06.6963|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:41:06.6963|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 15:41:07.7045|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:41:07.7045|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 1008.6548ms
+2024-04-11 15:41:07.7045|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:41:07.7045|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=495936&Newpassword=Nandu%40123 - 200 - text/plain;+charset=utf-8 1032.9381ms
+2024-04-11 15:42:31.3279|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 15:42:31.8915|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 15:42:31.8915|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 15:42:31.8989|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 15:42:31.8989|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 15:42:31.8989|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 15:42:34.0665|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 15:42:34.6756|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 623.6253ms
+2024-04-11 15:42:34.7205|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 15:42:34.7205|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 15:42:34.7326|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 12.1147ms
+2024-04-11 15:42:34.8448|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 122.5943ms
+2024-04-11 15:42:35.0148|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 15:42:35.4680|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 453.1853ms
+2024-04-11 15:42:53.2902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - - 0
+2024-04-11 15:42:53.3150|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:42:53.3668|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:42:53.4206|INFO|FundooNotes.Controllers.RegistrationController|Email Sent
+2024-04-11 15:42:56.9892|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:42:57.0164|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes) in 3626.746ms
+2024-04-11 15:42:57.0164|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:42:57.0164|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - 200 - text/plain;+charset=utf-8 3728.6750ms
+2024-04-11 15:43:30.5672|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=372876&Newpassword=Nandu%21123 - - 0
+2024-04-11 15:43:30.5880|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:43:30.6034|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:43:30.6034|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 15:43:31.3995|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:43:31.3995|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 796.0239ms
+2024-04-11 15:43:31.3995|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:43:31.3995|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=372876&Newpassword=Nandu%21123 - 200 - text/plain;+charset=utf-8 835.6978ms
+2024-04-11 15:44:17.4539|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=372876&Newpassword=MyPassw0rd%21 - - 0
+2024-04-11 15:44:17.4597|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:44:17.4597|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:44:17.4768|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 15:44:18.1280|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:44:18.1280|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 661.8996ms
+2024-04-11 15:44:18.1280|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:44:18.1299|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=372876&Newpassword=MyPassw0rd%21 - 200 - text/plain;+charset=utf-8 678.5263ms
+2024-04-11 15:44:32.2271|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=372876&Newpassword=MyPassw0rd%21 - - 0
+2024-04-11 15:44:32.2271|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:44:32.2271|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:44:32.2271|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 15:44:32.8157|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:44:32.8157|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 578.3866ms
+2024-04-11 15:44:32.8214|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:44:32.8214|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=372876&Newpassword=MyPassw0rd%21 - 200 - text/plain;+charset=utf-8 600.8817ms
+2024-04-11 15:45:08.1716|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-11 15:45:08.8072|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-11 15:45:08.8072|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-11 15:45:08.8072|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-11 15:45:08.8072|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-11 15:45:08.8072|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNotes\FundooNotes
+2024-04-11 15:45:11.2530|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-11 15:45:11.8245|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 593.4322ms
+2024-04-11 15:45:11.8640|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-11 15:45:11.8640|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-11 15:45:11.8808|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 16.7311ms
+2024-04-11 15:45:12.0586|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 194.6862ms
+2024-04-11 15:45:12.1705|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-11 15:45:12.4347|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 264.4094ms
+2024-04-11 15:45:34.6738|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - - 0
+2024-04-11 15:45:34.7030|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:45:34.7644|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:45:34.8285|INFO|FundooNotes.Controllers.RegistrationController|Email Sent
+2024-04-11 15:45:38.3521|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:45:38.3779|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes) in 3599.1944ms
+2024-04-11 15:45:38.3779|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ForgotPassword (FundooNotes)'
+2024-04-11 15:45:38.3779|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/Forgotpassword?Email=nandinink1947%40gmail.com - 200 - text/plain;+charset=utf-8 3705.0711ms
+2024-04-11 15:46:22.7288|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=902907&Newpassword=MyNassw0rd%21 - - 0
+2024-04-11 15:46:22.7541|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:46:22.7600|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ResetPassword", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(System.String, System.String) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-04-11 15:46:22.7600|INFO|FundooNotes.Controllers.RegistrationController|Password reset successful
+2024-04-11 15:46:23.5753|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-04-11 15:46:23.5753|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes) in 815.9834ms
+2024-04-11 15:46:23.5753|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.ResetPassword (FundooNotes)'
+2024-04-11 15:46:23.5753|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/ResetPassword?otp=902907&Newpassword=MyNassw0rd%21 - 200 - text/plain;+charset=utf-8 854.4589ms

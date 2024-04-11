@@ -69,17 +69,23 @@ namespace Repository.Service
             return true;
 
         }
-        public async Task RemoveCollaborator(int NoteId, CollaborationRequestModel Request, int UserId)
+        public async Task RemoveCollaborator(int CollabId)
         {
-            var query = "DELETE FROM Collaboration WHERE UserId = @UserId AND NoteId = @NoteId AND CollabEmail = @CollabEmail;";
-            var parameter = new DynamicParameters();
-            parameter.Add("NoteId", NoteId, DbType.Int64);
-            parameter.Add("UserId", UserId, DbType.Int64);
-            parameter.Add("CollabEmail", Request.Email, DbType.String);
-            using( var connection = _Context.CreateConnection())
+            try
             {
-                 await connection.ExecuteAsync(query, parameter);
-              
+
+                var parameter = new DynamicParameters();
+                parameter.Add("Collabid", CollabId, DbType.Int64);
+
+                var query = "DELETE FROM Collaboration WHERE CollaborationId = @Collabid;";
+                using (var connection = _Context.CreateConnection())
+                {
+                    await connection.ExecuteAsync(query, parameter);
+
+                }
+            }catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
         public async Task<IEnumerable<object>> GetCollaborationbyid(int CollabId)

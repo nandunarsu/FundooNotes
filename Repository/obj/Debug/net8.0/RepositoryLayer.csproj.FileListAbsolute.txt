@@ -1,0 +1,16 @@
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\bin\Debug\net8.0\RepositoryLayer.deps.json
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\bin\Debug\net8.0\RepositoryLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\bin\Debug\net8.0\RepositoryLayer.pdb
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\bin\Debug\net8.0\ModelLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\bin\Debug\net8.0\ModelLayer.pdb
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.sourcelink.json
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.csproj.CopyComplete
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\refint\RepositoryLayer.dll
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\RepositoryLayer.pdb
+C:\Users\NANDINI\source\repos\FundooNotes\Repository\obj\Debug\net8.0\ref\RepositoryLayer.dll

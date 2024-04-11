@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Interface
 {
-    public interface ILabelbl
+    public interface ILabel
     {
         public Task CreateLabel(LabelEntity labelEntity);
         public Task DeleteLabel(int LabelId);

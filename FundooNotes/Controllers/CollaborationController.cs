@@ -11,38 +11,44 @@ namespace FundooNotes.Controllers
     [ApiController]
     public class CollaborationController : ControllerBase
     {
-        private readonly ICollaborationbl _collabbl;
+        private readonly ICollaboration _collabbl;
+        private readonly ILogger<CollaborationController> _logger;
 
-        public CollaborationController(ICollaborationbl collabbl)
+        public CollaborationController(ICollaboration collabbl, ILogger<CollaborationController> _logger)
         {
             this._collabbl = collabbl;
+            this._logger = _logger;
         }
-        [HttpPost("AddCollaboration")]
+        [HttpPost]
 
         public async Task<IActionResult> AddCollaborator(int noteid, [FromBody] CollaborationRequestModel model, int userId)
         {
             try
             {
+
                 await _collabbl.AddCollaborator(noteid, model, userId);
+                _logger.LogInformation("Collabarator Added");
                 return Ok("Collabarator Added Successfully");
             }
             catch (Exception ex)
             {
+                _logger.LogError($"Invalid Request {ex.Message}");
                 return StatusCode(500, ex.Message);
             }
 
         }
-        [HttpDelete("RemoveCollaborator")]
+        [HttpDelete()]
 
-        public async Task<IActionResult> RemoveCollaborator(int NoteId, CollaborationRequestModel Request, int UserId)
+        public async Task<IActionResult> RemoveCollaborator(int CollabId)
         {
             try
             {
-                await _collabbl.RemoveCollaborator(NoteId, Request, UserId);
+                await _collabbl.RemoveCollaborator(CollabId);
                 return Ok("Collabarator Removed Successfully");
             }
             catch (Exception ex)
             {
+                _logger.LogError($"Invalid Request {ex.Message}");
                 return StatusCode(500, ex.Message);
             }
         }
@@ -58,6 +64,7 @@ namespace FundooNotes.Controllers
             }
             catch(Exception ex)
             {
+                _logger.LogError($"Invalid Request {ex.Message}");
                 return StatusCode(500, ex.Message);
             }
 

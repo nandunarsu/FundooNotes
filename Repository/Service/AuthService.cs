@@ -29,23 +29,28 @@ namespace Repository.Service
             var issuer = _configuration["Jwt:Issuer"];
             var audience = _configuration["Jwt:Audience"];
 
-            // Ensure the key size is at least 256 bits (32 bytes)
+            
             if (key.Length < 32)
             {
                 throw new ArgumentException("JWT secret key must be at least 256 bits (32 bytes)");
             }
 
+            var claims = new[]
+            {
+        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+        new Claim(ClaimTypes.Email, user.Email)
+        
+    };
+
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                  // Included userId,Email as a claim
-                    new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-                     new Claim(ClaimTypes.Email ,user.Email), // We can add  more claims if needed
-                }),
+                Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddDays(7),
+                Issuer = issuer,
+                Audience = audience,
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
+
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }

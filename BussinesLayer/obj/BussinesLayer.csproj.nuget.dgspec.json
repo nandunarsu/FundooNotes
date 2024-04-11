@@ -31,8 +31,8 @@
               "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
                 "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj"
               },
-              "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\Repository.csproj"
+              "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj"
               }
             }
           }
@@ -62,6 +62,14 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.8, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -140,6 +148,14 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
@@ -165,12 +181,12 @@
         }
       }
     },
-    "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\Repository.csproj": {
+    "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\NANDINI\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -220,6 +236,14 @@
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.8, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

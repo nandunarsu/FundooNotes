@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Service
 {
-    public class CollaborationServicebl :ICollaborationbl
+    public class CollaborationServicebl : Interface.ICollaboration
     {
-        private readonly ICollaboration _collaboration;
+        private readonly Repository.Interface.ICollaboration _collaboration;
 
-        public CollaborationServicebl(ICollaboration collaboration)
+        public CollaborationServicebl(Repository.Interface.ICollaboration collaboration)
         {
             this._collaboration = collaboration;
         }
@@ -21,9 +21,9 @@ namespace BussinesLayer.Service
         {
             return _collaboration.AddCollaborator(noteid, model, userId);
         }
-        public Task RemoveCollaborator(int NoteId, CollaborationRequestModel Request, int UserId)
+        public Task RemoveCollaborator(int CollabId)
         {
-            return _collaboration.RemoveCollaborator(NoteId, Request, UserId);
+            return _collaboration.RemoveCollaborator(CollabId);
         }
         public Task<IEnumerable<object>> GetCollaborationbyid(int CollabId)
         {

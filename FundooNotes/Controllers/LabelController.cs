@@ -9,10 +9,12 @@ namespace FundooNotes.Controllers
     [ApiController]
     public class LabelController : ControllerBase
     {
-        private readonly ILabelbl labelbl;
-       public LabelController(ILabelbl label)
+        private readonly ILabel labelbl;
+        private readonly ILogger<LabelController> _logger;
+        public LabelController(ILabel label,ILogger<LabelController> logger)
         {
             this.labelbl = label;
+            this._logger = logger;
         }
 
         [HttpPost]
@@ -28,7 +30,7 @@ namespace FundooNotes.Controllers
                 return StatusCode(500, ex.Message); 
             }
         }
-        [HttpDelete("Deletebyid")]
+        [HttpDelete]
         public async Task<IActionResult> Removelabel(int LabelId)
         {
             try
@@ -41,7 +43,7 @@ namespace FundooNotes.Controllers
                 return StatusCode(500,ex.Message);
             }
         }
-        [HttpPut("updatebyid")]
+        [HttpPut]
         public async Task<IActionResult> UpdateLabel(LabelEntity labelentity)
         {
             try
@@ -61,11 +63,13 @@ namespace FundooNotes.Controllers
         {
             try
             {
+                _logger.LogInformation("getnotesbyid");
                var label = await labelbl.GetAllLabelbyId(LabelId);
                 return Ok(label);
             }
             catch(Exception ex)
             {
+                
                 return StatusCode(500, ex.Message);
             }
         }

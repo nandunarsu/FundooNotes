@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Interface
 {
-    public interface INotesbl
+    public interface INotes
     {
         public Task CreateNote(CreateNoteRequest createNoteRequest);
 

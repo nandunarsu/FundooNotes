@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Interface
 {
-    public interface IEmailbl
+    public interface IEmail
     {
         Task<bool> SendEmailAsync(string to, string subject, string body);
     }
