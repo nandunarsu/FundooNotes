@@ -15,6 +15,7 @@ namespace ModelLayer.Notes
         public bool IsArchived { get; set; } = false;
         public bool IsDeleted { get; set; } = false;
 
-        public int UserId { get; set; }
+       // public int UserId { get; set; }
+
     }
 }

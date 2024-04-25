@@ -1,7 +1,12 @@
 ﻿using BussinesLayer.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ModelLayer;
+using ModelLayer.Label;
+using ModelLayer.Notes;
 using Repository.Entity;
+using System.Security.Claims;
 
 namespace FundooNotes.Controllers
 {
@@ -16,63 +21,116 @@ namespace FundooNotes.Controllers
             this.labelbl = label;
             this._logger = logger;
         }
-
+        [Authorize]
         [HttpPost]
-        public async Task<IActionResult> AddLabel(LabelEntity labelEntity)
+        public async Task<IActionResult> AddLabel(CreateLabel label)
         {
             try
             {
-                await labelbl.CreateLabel(labelEntity);
-                return Ok("Label created");
+                var userIdClaim = User.FindFirstValue("UserId");
+                int userId = Convert.ToInt32(userIdClaim);
+                await labelbl.CreateLabel(label, userId);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "Label created "
+
+                };
+                return Ok(response);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message); 
+                var response = new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = ex.Message,
+                    Data = null
+                };
+                return NotFound(response);
             }
         }
+        [Authorize]
         [HttpDelete]
         public async Task<IActionResult> Removelabel(int LabelId)
         {
             try
             {
                 await labelbl.DeleteLabel(LabelId);
-                return Ok("Label deleted");
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "Label deleted"
+
+                };
+                return Ok(response);
             }
             catch(Exception ex)
             {
-                return StatusCode(500,ex.Message);
+                return StatusCode(500, new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = "An error occurred while updating the notes.",
+                    Data = null
+                });
             }
         }
+        [Authorize]
         [HttpPut]
-        public async Task<IActionResult> UpdateLabel(LabelEntity labelentity)
+        public async Task<IActionResult> UpdateLabel(CreateLabel label, int LabelId)
         {
             try
             {
-                await labelbl.UpdateLabel(labelentity);
-                return Ok("Label updated");
+                var userIdClaim = User.FindFirstValue("UserId");
+                int userId = Convert.ToInt32(userIdClaim);
+
+                await labelbl.UpdateLabel(label,LabelId,userId);
+                var response = new ResponseModel<String>
+                {
+                    StatusCode = 200,
+                    Message = "Label Updated",
+                    Data = null
+
+                };
+                return Ok(response);
             }
             catch(Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                return StatusCode(500, new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = "An error occurred while updating the notes.",
+                    Data = null
+                });
             }
         }
-
+        [Authorize]
         [HttpGet("Getbyid")]
 
-        public async Task<IActionResult> GetAllLabelbyId(int LabelId)
+        public async Task<IActionResult> GetAllLabelbyId()
         {
             try
             {
                 _logger.LogInformation("getnotesbyid");
-               var label = await labelbl.GetAllLabelbyId(LabelId);
-                return Ok(label);
+               var label = await labelbl.GetAllLabelbyId();
+                return Ok(new ResponseModel<IEnumerable<LabelEntity>>
+                {
+                    StatusCode = 200,
+                    Message = "Label retrieved successfully",
+                    Data = label
+                });
             }
             catch(Exception ex)
             {
-                
-                return StatusCode(500, ex.Message);
+
+                return StatusCode(500, new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = "An error occurred while updating the notes.",
+                    Data = null
+                });
             }
         }
+        [Authorize]
         [HttpGet("Getnotesbyid")]
 
         public async Task<IActionResult> GetAllNotebyId(int LabelId)
@@ -80,11 +138,21 @@ namespace FundooNotes.Controllers
             try
             {
                 var label = await labelbl.GetAllNotesbyId(LabelId);
-                return Ok(label);
+                return Ok(new ResponseModel<object>
+                {
+                    StatusCode = 200,
+                    Message = "Label retrieved successfully",
+                    Data = label
+                });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                return StatusCode(500, new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = "An error occurred while updating the notes.",
+                    Data = null
+                });
             }
         }
 

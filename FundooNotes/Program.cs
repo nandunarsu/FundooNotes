@@ -11,9 +11,6 @@ using Repository.Service;
 using System.Text;
 using NLog;
 using NLog.Web;
-using NLog.Extensions.Logging;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,8 +21,14 @@ var logpath = Path.Combine(Directory.GetCurrentDirectory(), "Logs");
 NLog.GlobalDiagnosticsContext.Set("LogDirectory", logpath);
 builder.Logging.ClearProviders();
 builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
-builder.Host.UseNLog();
+builder.Host.UseNLog(); 
+var redisUrl = builder.Configuration["RedisURL"];
 
+// Add Redis distributed cache
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = redisUrl;
+});
 
 
 
@@ -43,16 +46,16 @@ builder.Services.AddSingleton<DapperContext>();
 
 builder.Services.AddScoped<Repository.Interface.IRegistration, RegistrationService>();
 builder.Services.AddScoped<BussinesLayer.Interface.IRegistration, RegistrationServicebl>();
-builder.Services.AddScoped<IAuthService,AuthService>();
-builder.Services.AddScoped<Repository.Interface.IEmail, EmailService>();
+builder.Services.AddScoped<IAuthServiceRL,AuthService>();
+builder.Services.AddScoped<Repository.Interface.IEmailRL, EmailService>();
 builder.Services.AddScoped<BussinesLayer.Interface.IEmail, EmailServicebl>();
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddScoped(sp => sp.GetRequiredService<IOptions<EmailSettings>>().Value);
-builder.Services.AddScoped<Repository.Interface.INotes, NotesService>();
+builder.Services.AddScoped<Repository.Interface.NotesInterface, NotesService>();
 builder.Services.AddScoped<BussinesLayer.Interface.INotes, NotesServicebl>();
-builder.Services.AddScoped<Repository.Interface.ICollaboration, CollaborationService>();
+builder.Services.AddScoped<Repository.Interface.ICollaborationRL, CollaborationService>();
 builder.Services.AddScoped<BussinesLayer.Interface.ICollaboration, CollaborationServicebl>();
-builder.Services.AddScoped<Repository.Interface.ILabel, LabelRepository>();
+builder.Services.AddScoped<Repository.Interface.ILabelRL, LabelRepository>();
 builder.Services.AddScoped<BussinesLayer.Interface.ILabel, LabelRepositorybl>();
 
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);

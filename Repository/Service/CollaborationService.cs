@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using ModelLayer;
+using ModelLayer.Collaboration;
 using Repository.Context;
 using Repository.GlobalExceptions;
 using Repository.Interface;
@@ -13,12 +14,12 @@ using System.Threading.Tasks;
 
 namespace Repository.Service
 {
-    public class CollaborationService : ICollaboration
+    public class CollaborationService : ICollaborationRL
     {
         private readonly DapperContext _Context;
-        private readonly IEmail EmailService;
+        private readonly IEmailRL EmailService;
 
-        public CollaborationService(DapperContext context, IEmail emailService)
+        public CollaborationService(DapperContext context, IEmailRL emailService)
         {
             _Context = context;
             EmailService = emailService;
@@ -30,7 +31,7 @@ namespace Repository.Service
         }
         public async Task<bool> AddCollaborator(int noteid, CollaborationRequestModel model, int userId)
         {
-            var query = "INSERT INTO Collaboration(UserId,NoteId,CollabEmail) VALUES (@UserId,@NoteId,@CollabEmail);";
+            
             var parameter = new DynamicParameters();
 
             parameter.Add("Noteid", noteid, DbType.Int64);
@@ -41,6 +42,8 @@ namespace Repository.Service
                 throw new InvalidEmailFormatException("Invalid Email Format");
             }
             parameter.Add("CollabEmail", model.Email, DbType.String);
+
+            var query = @"INSERT INTO Collaboration(UserId,NoteId,CollabEmail) VALUES (@UserId,@NoteId,@CollabEmail);";
 
             var emailexistquery = "SELECT COUNT(*) FROM Users where Email = @CollabEmail;";
 
@@ -56,7 +59,7 @@ namespace Repository.Service
                 if (!tableexist)
                 {
 
-                    await connection.ExecuteAsync("CREATE TABLE Collaboration(CollaborationId int identity(1,1) primary key,UserId int FOREIGN KEY REFERENCES Users(UserId),NoteId int FOREIGN KEY REFERENCES Notes(NoteId),CollabEmail nvarchar(100) FOREIGN KEY REFERENCES Users(Email));");
+                    await connection.ExecuteAsync("CREATE TABLE Collaboration(CollaborationId int identity(1,1) primary key,UserId int FOREIGN KEY REFERENCES Users(UserId),NoteId int FOREIGN KEY REFERENCES Notes(NoteId),CollabEmail nvarchar(100));");
                 }
                 else
                 {
@@ -88,15 +91,14 @@ namespace Repository.Service
                 Console.WriteLine(ex.Message);
             }
         }
-        public async Task<IEnumerable<object>> GetCollaborationbyid(int CollabId)
+        public async Task<IEnumerable<CollabInfoModel>> GetCollaboration()
         {
-            var query = "select * from Collaboration c join Notes n on c.NoteId = n.NoteId join Users u on c.UserId = u.UserId where c.CollaborationId = @CollabId;";
-            var parameter = new DynamicParameters();
-            parameter.Add("CollabId",CollabId,DbType.Int64);
+            var query = "select * from Collaboration";
+            
             using(var connection = _Context.CreateConnection())
             {
-                var collab = await connection.QueryAsync<object>(query, parameter);
-                return collab.ToList();
+                var collab = await connection.QueryAsync<CollabInfoModel>(query);
+                return collab;
             }
         }
     

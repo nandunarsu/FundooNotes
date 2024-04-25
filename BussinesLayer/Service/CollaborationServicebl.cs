@@ -1,5 +1,6 @@
 ﻿using BussinesLayer.Interface;
 using ModelLayer;
+using ModelLayer.Collaboration;
 using Repository.Interface;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace BussinesLayer.Service
 {
     public class CollaborationServicebl : Interface.ICollaboration
     {
-        private readonly Repository.Interface.ICollaboration _collaboration;
+        private readonly Repository.Interface.ICollaborationRL _collaboration;
 
-        public CollaborationServicebl(Repository.Interface.ICollaboration collaboration)
+        public CollaborationServicebl(Repository.Interface.ICollaborationRL collaboration)
         {
             this._collaboration = collaboration;
         }
@@ -25,9 +26,9 @@ namespace BussinesLayer.Service
         {
             return _collaboration.RemoveCollaborator(CollabId);
         }
-        public Task<IEnumerable<object>> GetCollaborationbyid(int CollabId)
+        public Task<IEnumerable<CollabInfoModel>> GetCollaboration()
         {
-            return _collaboration.GetCollaborationbyid(CollabId);
+            return _collaboration.GetCollaboration();
         }
     }
 }

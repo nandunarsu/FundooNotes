@@ -1,4 +1,5 @@
-﻿using Repository.Entity;
+﻿using ModelLayer.Label;
+using Repository.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,10 @@ namespace BussinesLayer.Interface
 {
     public interface ILabel
     {
-        public Task CreateLabel(LabelEntity labelEntity);
+        public Task CreateLabel(CreateLabel label, int UserId);
         public Task DeleteLabel(int LabelId);
-        public Task UpdateLabel(LabelEntity labelEntity);
-        public Task<IEnumerable<LabelEntity>> GetAllLabelbyId(int LabelId);
+        public Task UpdateLabel(CreateLabel label, int LabelId, int UserId);
+        public Task<IEnumerable<LabelEntity>> GetAllLabelbyId();
         public Task<IEnumerable<object>> GetAllNotesbyId(int LabelId);
     }
 }

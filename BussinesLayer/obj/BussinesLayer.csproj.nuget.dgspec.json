@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\BussinesLayer\\BussinesLayer.csproj": {}
+    "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\BussinesLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\BussinesLayer\\BussinesLayer.csproj": {
+    "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\BussinesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\BussinesLayer\\BussinesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\BussinesLayer.csproj",
         "projectName": "BussinesLayer",
-        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\BussinesLayer\\BussinesLayer.csproj",
+        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\BussinesLayer.csproj",
         "packagesPath": "C:\\Users\\NANDINI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\BussinesLayer\\obj\\",
+        "outputPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NANDINI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ModelLayer.csproj"
               },
-              "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj": {
-                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj"
+              "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\RepositoryLayer.csproj"
               }
             }
           }
@@ -41,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -51,6 +56,10 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
@@ -58,6 +67,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -70,6 +83,10 @@
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[5.3.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -92,18 +109,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
+    "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ModelLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ModelLayer.csproj",
         "projectName": "ModelLayer",
-        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
+        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ModelLayer.csproj",
         "packagesPath": "C:\\Users\\NANDINI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\obj\\",
+        "outputPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NANDINI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,6 +143,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -136,6 +158,10 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
@@ -143,6 +169,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -155,6 +185,10 @@
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[5.3.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -177,18 +211,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj": {
+    "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj",
+        "projectUniqueName": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\RepositoryLayer.csproj",
         "projectName": "RepositoryLayer",
-        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\RepositoryLayer.csproj",
+        "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\NANDINI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NANDINI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -205,8 +239,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj": {
-                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj"
+              "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ModelLayer.csproj"
               }
             }
           }
@@ -215,6 +249,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -225,6 +264,10 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
@@ -232,6 +275,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -244,6 +291,10 @@
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[5.3.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -266,7 +317,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

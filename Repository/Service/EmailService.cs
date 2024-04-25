@@ -11,7 +11,7 @@ using Repository.GlobalExceptions;
 
 namespace Repository.Service
 {
-    public class EmailService :IEmail
+    public class EmailService :IEmailRL
     {
         private readonly EmailSettings emailsetting;
 

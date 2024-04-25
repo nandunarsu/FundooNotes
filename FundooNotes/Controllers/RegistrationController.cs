@@ -7,6 +7,8 @@ using System.Reflection;
 using NLog;
 using System.Security.Claims;
 using Microsoft.Extensions.Logging;
+using ModelLayer;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FundooNotes.Controllers
 {
@@ -22,7 +24,7 @@ namespace FundooNotes.Controllers
             _registrationbl = registrationbl;
             _logger = logger; 
         }
-
+       
         [HttpPost]
         public async Task<IActionResult> UserRegistration(UserRegistrationModel user)
         {
@@ -30,12 +32,24 @@ namespace FundooNotes.Controllers
             {
                 await _registrationbl.RegisterUser(user);
                _logger.LogInformation("Registration successful");
-                return Ok("Registration Successful");
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "User Registered Successfully"
+
+                };
+                return Ok(response);
             }
             catch (Exception ex)
             {
                _logger.LogError("Invalid Request");
-                return StatusCode(500, ex.Message);
+                var response = new ResponseModel<string>
+                {
+                    Success = false,
+                    Message = ex.Message,
+                    Data = null // Ensure Data is null in case of error
+                };
+                return Ok(response);
             }
         }
         [HttpPost("login")]
@@ -43,17 +57,35 @@ namespace FundooNotes.Controllers
         {
             try
             {
+                
                 // Authenticate the user and generate JWT token
                 var Token = await _registrationbl.UserLogin(userLogin);
-                _logger.LogInformation("Login Successful");
-                return Ok(Token);
+                //Console.WriteLine(Token);
+                // return Ok(Token);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "User Login Successfully",
+                    Data = Token
+
+                };
+                return Ok(response);
+
             }
             catch(Exception ex)
             {
                _logger.LogError($"Failed to login {ex.Message}");
-                return StatusCode(500,ex.Message);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode= 500,
+                    Message = ex.Message,
+                    Data = null // Ensure Data is null in case of error
+                };
+                throw ex;
+               // return Ok(response);
             }
         }
+       
         [HttpPost("Forgotpassword")]
 
         public async Task<IActionResult> ForgotPassword(String Email)
@@ -61,18 +93,31 @@ namespace FundooNotes.Controllers
             try
             {
                 _logger.LogInformation("Email Sent");
-                return Ok(await _registrationbl.ForgotPassword(Email));
-                
+                await _registrationbl.ForgotPassword(Email);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "Email Sent Successfully"
+
+                };
+                return Ok(response);
+
             }
             catch(Exception ex)
 
             {
                 _logger.LogError($"error occured while sending mail {ex.Message}");
-                return StatusCode(500, ex.Message);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 500,
+                    Message = ex.Message,
+                    Data = null // Ensure Data is null in case of error
+                };
+                return Ok(response);
             }
         }
-    
 
+       
         [HttpPost("ResetPassword")]
 
         public async Task<IActionResult> ResetPassword(String otp, String Newpassword)
@@ -80,13 +125,28 @@ namespace FundooNotes.Controllers
             try
             {
                 _logger.LogInformation("Password reset successful");
-                return Ok(await _registrationbl.ResetPassword(otp, Newpassword));
-            }catch(Exception ex)
+                await _registrationbl.ResetPassword(otp, Newpassword);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "Password Reset done"
+
+                };
+                return Ok(response);
+            }
+            catch(Exception ex)
             {
-                return StatusCode(500, ex.Message);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 500,
+                    Message = ex.Message,
+                    Data = null // Ensure Data is null in case of error
+                };
+                return Ok(response);
             }
             
         }
+      
         [HttpGet]
 
         public async Task<IActionResult> GetUserDetails()
@@ -96,41 +156,80 @@ namespace FundooNotes.Controllers
                 
                 var registration = await _registrationbl.GetUserDetails();
                 _logger.LogInformation("got details");
-                return Ok(registration);
+                var response = new ResponseModel<IEnumerable<Registration>>
+                {
+                    StatusCode = 200,
+                    Message = "User Details are:",
+                    Data = registration
+
+                };
+                return Ok(response);
             }
             catch (Exception ex)
             {
 
-                return StatusCode(500, ex.Message);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 500,
+                    Message = ex.Message,
+                    Data = null // Ensure Data is null in case of error
+                };
+                return Ok(response);
             }
         }
+        
         [HttpDelete("DeleteUsingFirstname")]
         public async Task<IActionResult> DeleteUser(string firstname)
         {
             try
             {
                 await _registrationbl.DeleteUser(firstname);
-               
-                return Ok("User deleted");
+
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "User Deleted"
+
+                };
+                return Ok(response);
             }
             catch (Exception ex)
             {
                 _logger.LogError($"{ex.Message}");
-                return StatusCode(500, ex);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 500,
+                    Message = ex.Message,
+                    Data = null // Ensure Data is null in case of error
+                };
+                return Ok(response);
             }
         }
+       
         [HttpPut("Updateusingname")]
         public async Task<IActionResult> UpdateUser(string firstname, string lastname, string email, string password)
         {
             try
             {
                 await _registrationbl.UpdateUser(firstname, lastname, email, password);
-                return Ok("User Updated");
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 200,
+                    Message = "User Updated"
+
+                };
+                return Ok(response);
             }
             catch (Exception ex)
             {
                 _logger.LogError($"exception occured while updated{ex.Message}");
-                return StatusCode(500, ex);
+                var response = new ResponseModel<string>
+                {
+                    StatusCode = 500,
+                    Message = ex.Message,
+                    Data = null // Ensure Data is null in case of error
+                };
+                return Ok(response);
             }
         }
     }

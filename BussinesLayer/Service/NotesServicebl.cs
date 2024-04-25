@@ -6,32 +6,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BussinesLayer.Interface;
 
 namespace BussinesLayer.Service
 {
-    public class NotesServicebl : Interface.INotes
+    public class NotesServicebl : INotes
     {
-        private readonly Repository.Interface.INotes _notesInterface;
+        private readonly NotesInterface _notesInterface;
 
-        public NotesServicebl(Repository.Interface.INotes notesInterface)
+        public NotesServicebl(Repository.Interface.NotesInterface notesInterface)
         {
             _notesInterface = notesInterface;
         }
-        public Task CreateNote(CreateNoteRequest createNoteRequest)
+        public Task CreateNote(CreateNoteRequest createNoteRequest, int userid)
         {
-            return _notesInterface.CreateNote(createNoteRequest);
+            return _notesInterface.CreateNote(createNoteRequest,userid);
         }
-        public Task<IEnumerable<NoteResponse>> GetAllNotebyuserid(int userId)
+        public Task<IEnumerable<NoteResponse>> GetAllNoteAsync( int userid)
         {
-            return _notesInterface.GetAllNotebyuserid(userId);
+            return _notesInterface.GetAllNoteAsync(userid);
         }
-        public Task UpdateNote(CreateNoteRequest updatedNote, int NoteId)
+        public Task UpdateNote(int noteId, int UserId, CreateNoteRequest updatedNote)
         {
-            return _notesInterface.UpdateNote(updatedNote, NoteId);
+            return _notesInterface.UpdateNote(noteId,UserId,updatedNote);
         }
         public Task DeleteNote(int noteId, int userId)
         {
             return _notesInterface.DeleteNote(noteId, userId);
         }
+
+
     }
 }

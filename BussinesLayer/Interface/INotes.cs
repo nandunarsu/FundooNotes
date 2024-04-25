@@ -9,12 +9,11 @@ namespace BussinesLayer.Interface
 {
     public interface INotes
     {
-        public Task CreateNote(CreateNoteRequest createNoteRequest);
+        public Task CreateNote(CreateNoteRequest createNoteRequest,int userid);
 
-        public Task<IEnumerable<NoteResponse>> GetAllNotebyuserid(int userId);
+        public Task<IEnumerable<NoteResponse>> GetAllNoteAsync(int userid);
 
-        public Task UpdateNote(CreateNoteRequest updatedNote, int NoteId);
-
+        public Task UpdateNote(int noteId, int UserId, CreateNoteRequest updatedNote);
         public Task DeleteNote(int noteId, int userId);
     }
 }

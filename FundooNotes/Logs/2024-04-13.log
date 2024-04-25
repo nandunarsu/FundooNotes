@@ -1,0 +1,21 @@
+2024-04-13 21:59:02.4915|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-13 21:59:04.9539|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-04-13 21:59:04.9667|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-04-13 21:59:04.9667|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-13 21:59:04.9818|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-13 21:59:04.9818|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\Source\Repos\FundooNote\FundooNotes
+2024-04-13 21:59:06.7279|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-04-13 21:59:08.7516|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 2019.1265ms
+2024-04-13 21:59:08.8828|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-04-13 21:59:08.9199|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-04-13 21:59:08.9763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 93.1427ms
+2024-04-13 21:59:10.0824|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1162.4428ms
+2024-04-13 21:59:10.2614|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-04-13 21:59:10.6132|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 351.6907ms
+2024-04-13 21:59:24.4523|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/api/Note/DisplayNotesbyid?userId=1 - - -
+2024-04-13 21:59:24.4744|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes)'
+2024-04-13 21:59:24.5487|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "DisplayNote", controller = "Note"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DisplayNote(Int32) on controller FundooNotes.Controllers.NoteController (FundooNotes).
+2024-04-13 21:59:27.3675|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ModelLayer.Notes.NoteResponse, ModelLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-13 21:59:27.3968|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes) in 2827.3254ms
+2024-04-13 21:59:27.3968|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.NoteController.DisplayNote (FundooNotes)'
+2024-04-13 21:59:27.3968|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/api/Note/DisplayNotesbyid?userId=1 - 200 - application/json;+charset=utf-8 2949.6418ms

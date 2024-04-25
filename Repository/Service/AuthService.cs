@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Service
 {
-    public class AuthService : IAuthService
+    public class AuthService : IAuthServiceRL
     {
         private readonly IConfiguration _configuration;
 
@@ -37,10 +37,13 @@ namespace Repository.Service
 
             var claims = new[]
             {
-        new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
-        new Claim(ClaimTypes.Email, user.Email)
-        
-    };
+       // new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+        new Claim(ClaimTypes.Email, user.Email),
+        new Claim("UserId",user.UserId.ToString()),
+        new Claim("FirstName",user.FirstName),
+        new Claim("LastName",user.FirstName)
+
+        };
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {

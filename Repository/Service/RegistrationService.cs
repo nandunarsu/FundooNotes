@@ -1,9 +1,11 @@
-﻿using Dapper;
+﻿using Confluent.Kafka;
+using Dapper;
 using ModelLayer.Registration;
 using Repository.Context;
 using Repository.Entity;
 using Repository.GlobalExceptions;
 using Repository.Interface;
+using RepositoryLayer.Helper;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,10 +22,10 @@ namespace Repository.Service
     public class RegistrationService : IRegistration
     {
         private readonly DapperContext Context;
-        private readonly IAuthService _authService;
-        private readonly IEmail EmailService;
+        private readonly IAuthServiceRL _authService;
+        private readonly IEmailRL EmailService;
 
-        public RegistrationService(DapperContext context,IAuthService authService,IEmail email)
+        public RegistrationService(DapperContext context,IAuthServiceRL authService,IEmailRL email)
         {
             Context = context;
             _authService = authService;
@@ -102,6 +104,30 @@ namespace Repository.Service
                 
                 await connection.ExecuteAsync(query, parameters);
             }
+            
+            var registrationDetailsForPublishing = new RegistrationDetailsForPublishing(userRegModel);
+
+            // Serialize registration details to a JSON string
+            var registrationDetailsJson = Newtonsoft.Json.JsonConvert.SerializeObject(registrationDetailsForPublishing);
+
+            // Get Kafka producer configuration
+            var producerConfig = Helper.GetProducerConfig();
+
+            // Create a Kafka producer
+            using (var producer = new ProducerBuilder<Null, string>(producerConfig).Build())
+            {
+                try
+                {
+                    // Publish registration details to Kafka topic
+                    await producer.ProduceAsync("Registration-topic", new Message<Null, string> { Value = registrationDetailsJson });
+                    Console.WriteLine("Registration details published to Kafka topic.");
+                }
+                catch (ProduceException<Null, string> e)
+                {
+                    Console.WriteLine($"Failed to publish registration details to Kafka topic: {e.Error.Reason}");
+                }
+            }
+            
 
             return true;
         }
@@ -112,7 +138,7 @@ namespace Repository.Service
             parameters.Add("Email", userLogin.Email);
 
 
-            string query = @"SELECT UserId, Email, Password FROM Users WHERE Email = @Email;";
+            string query = @"SELECT * FROM Users WHERE Email = @Email;";
 
 
             using (var connection = Context.CreateConnection())
@@ -123,7 +149,7 @@ namespace Repository.Service
                 {
                     throw new NotFoundException($"User with email '{userLogin.Email}' not found.");
                 }
-
+                
                 if (!BCrypt.Net.BCrypt.Verify(userLogin.Password, user.Password))
                 {
                     throw new InvalidPasswordException($"User with Password '{userLogin.Password}' not Found.");
@@ -248,7 +274,7 @@ namespace Repository.Service
 
         public async Task UpdateUser(string firstname, string lastname, string email, string password)
         {
-            var query = "UPDATE Users SET  LastName = @lastname,Email = @email,Password = @password where  FirstName = @firstname;";
+            var query = "UPDATE Users SET  LastName = @lastname,Email = @email,Password = @password where FirstName = @firstname;";
             var Parameter = new DynamicParameters();
             Parameter.Add("Firstname", firstname, DbType.String);
             Parameter.Add("Lastname", lastname, DbType.String);

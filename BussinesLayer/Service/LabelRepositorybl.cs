@@ -1,4 +1,5 @@
 ﻿using BussinesLayer.Interface;
+using ModelLayer.Label;
 using Repository.Entity;
 using Repository.Interface;
 using System;
@@ -9,28 +10,28 @@ using System.Threading.Tasks;
 
 namespace BussinesLayer.Service
 {
-    public class LabelRepositorybl : Interface.ILabel
+    public class LabelRepositorybl : ILabel
     {
-        private readonly Repository.Interface.ILabel ilabel;
-        public LabelRepositorybl(Repository.Interface.ILabel label)
+        private readonly ILabelRL ilabel;
+        public LabelRepositorybl(Repository.Interface.ILabelRL label)
         {
             this.ilabel = label;
         }
-        public Task CreateLabel(LabelEntity labelEntity)
+        public Task CreateLabel(CreateLabel label, int UserId)
         {
-            return ilabel.CreateLabel(labelEntity);
+            return ilabel.CreateLabel(label,UserId);
         }
         public Task DeleteLabel(int LabelId)
         {
             return ilabel.DeleteLabel(LabelId);
         }
-        public Task UpdateLabel(LabelEntity labelEntity)
+        public Task UpdateLabel(CreateLabel label, int LabelId, int UserId)
         {
-            return ilabel.UpdateLabel(labelEntity); 
+            return ilabel.UpdateLabel(label,LabelId,UserId);
         }
-        public Task<IEnumerable<LabelEntity>> GetAllLabelbyId(int LabelId)
+        public Task<IEnumerable<LabelEntity>> GetAllLabelbyId()
         {
-            return ilabel.GetAllLabelbyId(LabelId);
+            return ilabel.GetAllLabelbyId();
         }
         public Task<IEnumerable<object>> GetAllNotesbyId(int LabelId)
         {

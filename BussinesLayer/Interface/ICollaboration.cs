@@ -1,4 +1,5 @@
 ﻿using ModelLayer;
+using ModelLayer.Collaboration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace BussinesLayer.Interface
         public Task<bool> AddCollaborator(int noteid, CollaborationRequestModel model, int userId);
         public Task RemoveCollaborator(int CollabId);
 
-        public Task<IEnumerable<object>> GetCollaborationbyid(int CollabId);
+        public Task<IEnumerable<CollabInfoModel>> GetCollaboration();
 
 
     }

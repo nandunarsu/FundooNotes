@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using ModelLayer.Label;
 using Repository.Context;
 using Repository.Entity;
 using Repository.Interface;
@@ -12,19 +13,19 @@ using System.Threading.Tasks;
 
 namespace Repository.Service
 {
-    public class LabelRepository : ILabel
+    public class LabelRepository : ILabelRL
     {
         private readonly DapperContext _Context;
         public LabelRepository(DapperContext context)
         {
             _Context = context;
         }
-        public async Task CreateLabel(LabelEntity labelEntity)
+        public async Task CreateLabel(CreateLabel label, int UserId)
         {
             var parameter = new DynamicParameters();
-            parameter.Add("LabelName", labelEntity.LabelName, DbType.String);
-            parameter.Add("NoteId",labelEntity.NoteId, DbType.Int64);
-            parameter.Add("UserId",labelEntity.UserId, DbType.Int64);
+            parameter.Add("LabelName", label.LabelName, DbType.String);
+            parameter.Add("NoteId", label.NoteId, DbType.Int64);
+            parameter.Add("UserId",UserId, DbType.Int64);
 
             var query = "INSERT INTO Label (LabelName,NoteId,UserId) VALUES (@LabelName,@NoteId,@UserId);";
 
@@ -45,13 +46,13 @@ namespace Repository.Service
                 await connection.ExecuteAsync(query, parameter);
             }
         }
-        public async Task UpdateLabel(LabelEntity labelEntity)
+        public async Task UpdateLabel(CreateLabel label, int LabelId,int UserId)
         {
             var parameter = new DynamicParameters();
-            parameter.Add("LabelId", labelEntity.LabelId, DbType.Int64);
-            parameter.Add("LabelName", labelEntity.LabelName, DbType.String);
-            parameter.Add("NoteId", labelEntity.NoteId, DbType.Int64);
-            parameter.Add("UserId", labelEntity.UserId, DbType.Int64);
+            parameter.Add("LabelId", LabelId, DbType.Int64);
+            parameter.Add("LabelName", label.LabelName, DbType.String);
+            parameter.Add("NoteId", label.NoteId, DbType.Int64);
+            parameter.Add("UserId", UserId, DbType.Int64);
 
             var query = "UPDATE Label SET LabelName =@LabelName ,NoteId = @NoteId,UserId = @UserId WHERE LabelId = @LabelId;";
 
@@ -60,16 +61,15 @@ namespace Repository.Service
                 await connection.ExecuteAsync(query, parameter);
             }
         }
-        public async Task<IEnumerable<LabelEntity>> GetAllLabelbyId(int LabelId)
+        public async Task<IEnumerable<LabelEntity>> GetAllLabelbyId()
         {
-            var parameter = new DynamicParameters();
-            parameter.Add("LabelId", LabelId, DbType.Int64);
+           
 
-            var query = "SELECT * FROM Label WHERE LabelId = @LabelId;";
+            var query = "SELECT * FROM Label;";
 
             using(var connection = _Context.CreateConnection())
             {
-                var Label = await connection.QueryAsync<LabelEntity>(query,parameter);
+                var Label = await connection.QueryAsync<LabelEntity>(query);
                 return Label.ToList();
             }
         }

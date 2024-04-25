@@ -10,9 +10,9 @@ namespace BussinesLayer.Service
 {
     public class EmailServicebl : Interface.IEmail
     {
-        private readonly Repository.Interface.IEmail emailrepo;
+        private readonly Repository.Interface.IEmailRL emailrepo;
 
-        public EmailServicebl(Repository.Interface.IEmail _emailrepo)
+        public EmailServicebl(Repository.Interface.IEmailRL _emailrepo)
         {
             this.emailrepo = _emailrepo;
         }
