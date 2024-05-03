@@ -49,7 +49,7 @@ namespace FundooNotes.Controllers
                 {
                     Success = false,
                     Message = ex.Message,
-                    Data = null // Ensure Data is null in case of error
+                    Data = null
                 };
                 return Ok(response);
             }
@@ -81,10 +81,10 @@ namespace FundooNotes.Controllers
                 {
                     Success=false,
                     Message = ex.Message,
-                    Data = null // Ensure Data is null in case of error
+                    
                 };
                 throw ex;
-               // return Ok(response);
+               
             }
         }
        
@@ -113,7 +113,7 @@ namespace FundooNotes.Controllers
                 {
                     Success = false,
                     Message = ex.Message,
-                    Data = null // Ensure Data is null in case of error
+                    
                 };
                 return Ok(response);
             }
@@ -142,7 +142,7 @@ namespace FundooNotes.Controllers
                 {
                     Success=false,
                     Message = ex.Message,
-                    Data = null // Ensure Data is null in case of error
+                    Data = null 
                 };
                 return Ok(response);
             }
@@ -176,11 +176,11 @@ namespace FundooNotes.Controllers
                     Message = ex.Message,
                     Data = null // Ensure Data is null in case of error
                 };
-                return Ok(response);
+                return BadRequest(response);
             }
         }
         
-        [HttpDelete("DeleteUsingFirstname")]
+        [HttpDelete("{firstname}")]
         public async Task<IActionResult> DeleteUser(string firstname)
         {
             try
@@ -202,13 +202,13 @@ namespace FundooNotes.Controllers
                 {
                     Success = false,
                     Message = ex.Message,
-                    Data = null // Ensure Data is null in case of error
+                    Data = null 
                 };
                 return Ok(response);
             }
         }
        
-        [HttpPut("Updateusingname")]
+        [HttpPut("{firstname}")]
         public async Task<IActionResult> UpdateUser(string firstname, string lastname, string email, string password)
         {
             try
@@ -229,7 +229,7 @@ namespace FundooNotes.Controllers
                 {
                     Success = false,
                     Message = ex.Message,
-                    Data = null // Ensure Data is null in case of error
+                    Data = null 
                 };
                 return Ok(response);
             }

@@ -53,7 +53,7 @@ namespace FundooNotes.Controllers
 
         }
         [Authorize]
-        [HttpDelete]
+        [HttpDelete("{collabid}")]
 
         public async Task<IActionResult> RemoveCollaborator(int CollabId)
         {
@@ -80,7 +80,7 @@ namespace FundooNotes.Controllers
             }
         }
         [Authorize]
-        [HttpGet("GetByid")]
+        [HttpGet("{collabid}")]
 
         public async Task<IActionResult> GetCollabbyid()
         {

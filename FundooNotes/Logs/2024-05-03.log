@@ -388,3 +388,31 @@
 2024-05-03 11:49:21.3081|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 504.028ms
 2024-05-03 11:49:21.3081|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
 2024-05-03 11:49:21.3081|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 513.6042ms
+2024-05-03 13:04:04.9731|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-03 13:04:06.5885|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-05-03 13:04:06.5885|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-05-03 13:04:06.5885|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-03 13:04:06.5885|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-03 13:04:06.5885|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNote\FundooNotes
+2024-05-03 13:04:07.6251|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-05-03 13:04:08.9921|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 1380.5983ms
+2024-05-03 13:04:09.0240|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-05-03 13:04:09.0240|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-03 13:04:09.0240|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 15.0935ms
+2024-05-03 13:04:09.2563|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 232.5498ms
+2024-05-03 13:04:09.4049|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-05-03 13:04:09.8255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 420.6223ms
+2024-05-03 15:05:52.7963|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-03 15:05:53.4677|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-05-03 15:05:53.4802|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-05-03 15:05:53.4802|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-03 15:05:53.4999|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-03 15:05:53.5265|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNote\FundooNotes
+2024-05-03 15:05:54.1213|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-05-03 15:05:54.9581|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 852.2422ms
+2024-05-03 15:05:55.1878|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-03 15:05:55.2106|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 24.1876ms
+2024-05-03 15:05:55.3472|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-05-03 15:05:55.4711|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 124.8737ms
+2024-05-03 15:05:55.9183|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-05-03 15:05:56.2919|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 374.0438ms

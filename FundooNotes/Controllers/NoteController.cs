@@ -23,7 +23,7 @@ namespace FundooNotes.Controllers
         private readonly ILogger<NoteController> _logger;
 
 
-        public NoteController(INotes notesBL,IDistributedCache cache, ILogger<NoteController> logger)
+        public NoteController(INotes notesBL, IDistributedCache cache, ILogger<NoteController> logger)
         {
             _notesBL = notesBL;
             _cache = cache;
@@ -44,7 +44,7 @@ namespace FundooNotes.Controllers
                 {
                     Success = true,
                     Message = "Note Created Successfully",
-                    
+
                 };
                 return Ok(response);
             }
@@ -55,7 +55,7 @@ namespace FundooNotes.Controllers
                 {
                     Success = false,
                     Message = ex.Message,
-                    Data = null // Ensure Data is null in case of error
+                    Data = null 
                 };
                 return Ok(response);
             }
@@ -92,17 +92,17 @@ namespace FundooNotes.Controllers
                     //await _cache.SetStringAsync(key, JsonConvert.SerializeObject(notes), TimeSpan.FromMinutes(10));
                     var response = new ResponseModel<IEnumerable<NoteResponse>>
                     {
-                        Success=true,
+                        Success = true,
                         Message = "Note Fetched Successfully from DB",
                         Data = notes
                     };
                     return Ok(response);
                 }
                 return Ok();
-                }
+            }
             catch (Exception ex)
             {
-                return StatusCode(500, new ResponseModel<string>
+                return BadRequest(new ResponseModel<string>
                 {
                     Success = false,
                     Message = ex.Message,
@@ -111,7 +111,7 @@ namespace FundooNotes.Controllers
             }
         }
         [Authorize]
-        [HttpPut]
+        [HttpPut("{note_id}")]
         public async Task<IActionResult> UpdateNote(int NoteId,CreateNoteRequest updateone )
         {
             try
@@ -132,7 +132,7 @@ namespace FundooNotes.Controllers
             catch (Exception ex)
             {
 
-                return StatusCode(500, new ResponseModel<string>
+                return BadRequest(new ResponseModel<string>
                 {
                     Success = false,
                     Message = ex.Message,
@@ -141,7 +141,7 @@ namespace FundooNotes.Controllers
             }
         }
         [Authorize]
-        [HttpDelete]
+        [HttpDelete("{note_id}")]
         public async Task<IActionResult> DeleteNote(int noteId)
         {
             try
