@@ -9,11 +9,13 @@ using System.Security.Claims;
 using Microsoft.Extensions.Logging;
 using ModelLayer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace FundooNotes.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors]
     public class RegistrationController : ControllerBase
     {
         private readonly IRegistration _registrationbl;
@@ -34,7 +36,7 @@ namespace FundooNotes.Controllers
                _logger.LogInformation("Registration successful");
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "User Registered Successfully"
 
                 };
@@ -64,7 +66,7 @@ namespace FundooNotes.Controllers
                 // return Ok(Token);
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "User Login Successfully",
                     Data = Token
 
@@ -77,7 +79,7 @@ namespace FundooNotes.Controllers
                _logger.LogError($"Failed to login {ex.Message}");
                 var response = new ResponseModel<string>
                 {
-                    StatusCode= 500,
+                    Success=false,
                     Message = ex.Message,
                     Data = null // Ensure Data is null in case of error
                 };
@@ -96,7 +98,7 @@ namespace FundooNotes.Controllers
                 await _registrationbl.ForgotPassword(Email);
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Email Sent Successfully"
 
                 };
@@ -109,7 +111,7 @@ namespace FundooNotes.Controllers
                 _logger.LogError($"error occured while sending mail {ex.Message}");
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 500,
+                    Success = false,
                     Message = ex.Message,
                     Data = null // Ensure Data is null in case of error
                 };
@@ -128,7 +130,7 @@ namespace FundooNotes.Controllers
                 await _registrationbl.ResetPassword(otp, Newpassword);
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Password Reset done"
 
                 };
@@ -138,7 +140,7 @@ namespace FundooNotes.Controllers
             {
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 500,
+                    Success=false,
                     Message = ex.Message,
                     Data = null // Ensure Data is null in case of error
                 };
@@ -158,7 +160,7 @@ namespace FundooNotes.Controllers
                 _logger.LogInformation("got details");
                 var response = new ResponseModel<IEnumerable<Registration>>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "User Details are:",
                     Data = registration
 
@@ -170,7 +172,7 @@ namespace FundooNotes.Controllers
 
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 500,
+                    Success = false,
                     Message = ex.Message,
                     Data = null // Ensure Data is null in case of error
                 };
@@ -187,7 +189,7 @@ namespace FundooNotes.Controllers
 
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "User Deleted"
 
                 };
@@ -198,7 +200,7 @@ namespace FundooNotes.Controllers
                 _logger.LogError($"{ex.Message}");
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 500,
+                    Success = false,
                     Message = ex.Message,
                     Data = null // Ensure Data is null in case of error
                 };
@@ -214,7 +216,7 @@ namespace FundooNotes.Controllers
                 await _registrationbl.UpdateUser(firstname, lastname, email, password);
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "User Updated"
 
                 };
@@ -225,7 +227,7 @@ namespace FundooNotes.Controllers
                 _logger.LogError($"exception occured while updated{ex.Message}");
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 500,
+                    Success = false,
                     Message = ex.Message,
                     Data = null // Ensure Data is null in case of error
                 };

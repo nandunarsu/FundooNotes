@@ -1,0 +1,390 @@
+2024-05-03 10:18:41.1753|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-03 10:18:41.8883|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-05-03 10:18:41.8883|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-05-03 10:18:41.8883|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-03 10:18:41.8883|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-03 10:18:41.8883|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNote\FundooNotes
+2024-05-03 10:18:43.6328|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-05-03 10:18:45.6573|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 2036.5543ms
+2024-05-03 10:18:45.7910|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-03 10:18:45.7910|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 11.2087ms
+2024-05-03 10:18:45.9481|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-05-03 10:18:46.0645|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 117.0431ms
+2024-05-03 10:18:47.0377|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-05-03 10:18:47.4514|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 414.0684ms
+2024-05-03 10:23:41.5147|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-03 10:23:42.0827|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-05-03 10:23:42.0978|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-05-03 10:23:42.1219|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-03 10:23:42.1348|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-03 10:23:42.1348|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNote\FundooNotes
+2024-05-03 10:23:45.2517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-05-03 10:23:46.2274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 987.5402ms
+2024-05-03 10:23:46.2274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-03 10:23:46.2274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-05-03 10:23:46.2649|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 24.6989ms
+2024-05-03 10:23:46.3655|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 124.5116ms
+2024-05-03 10:23:46.4984|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-05-03 10:23:46.9397|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 441.9234ms
+2024-05-03 10:33:15.4513|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\NANDINI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-03 10:33:15.8940|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7209
+2024-05-03 10:33:15.8940|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5152
+2024-05-03 10:33:15.8989|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-03 10:33:15.8989|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-03 10:33:15.8989|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NANDINI\source\repos\FundooNote\FundooNotes
+2024-05-03 10:33:16.9706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/index.html - - -
+2024-05-03 10:33:17.8008|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/index.html - 200 - text/html;charset=utf-8 839.0770ms
+2024-05-03 10:33:17.9028|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-03 10:33:17.9028|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/_vs/browserLink - - -
+2024-05-03 10:33:17.9028|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript;+charset=utf-8 9.7562ms
+2024-05-03 10:33:17.9754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 73.0352ms
+2024-05-03 10:33:18.1003|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - - -
+2024-05-03 10:33:18.4794|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 379.7001ms
+2024-05-03 10:47:43.8536|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - - -
+2024-05-03 10:47:43.8815|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:47:43.8880|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - 204 - - 34.5842ms
+2024-05-03 10:47:43.8880|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 48
+2024-05-03 10:47:43.9144|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:47:43.9144|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 10:47:43.9889|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 10:47:46.0412|ERROR|FundooNotes.Controllers.RegistrationController|Failed to login User with email 'user@example.com' not found.
+2024-05-03 10:47:46.1314|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 2124.0473ms
+2024-05-03 10:47:46.1375|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 10:47:46.1375|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Repository.GlobalExceptions.NotFoundException: User with email 'user@example.com' not found.
+   at FundooNotes.Controllers.RegistrationController.UserLogin(UserLoginModel userLogin) in C:\Users\NANDINI\source\repos\FundooNote\FundooNotes\Controllers\RegistrationController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-03 10:47:46.5919|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 500 - text/plain;+charset=utf-8 2695.1627ms
+2024-05-03 10:49:22.3728|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - - -
+2024-05-03 10:49:22.3988|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:49:22.3988|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - 204 - - 33.3624ms
+2024-05-03 10:49:22.3988|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 48
+2024-05-03 10:49:22.3988|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:49:22.3988|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 10:49:22.4170|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 10:49:22.5603|ERROR|FundooNotes.Controllers.RegistrationController|Failed to login User with email 'user@example.com' not found.
+2024-05-03 10:49:22.6097|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 190.1862ms
+2024-05-03 10:49:22.6097|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 10:49:22.6097|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Repository.GlobalExceptions.NotFoundException: User with email 'user@example.com' not found.
+   at FundooNotes.Controllers.RegistrationController.UserLogin(UserLoginModel userLogin) in C:\Users\NANDINI\source\repos\FundooNote\FundooNotes\Controllers\RegistrationController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-03 10:49:22.6176|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 500 - text/plain;+charset=utf-8 208.4506ms
+2024-05-03 10:51:06.1536|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 10:51:06.1657|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:51:06.1657|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 12.7411ms
+2024-05-03 10:51:06.1657|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 79
+2024-05-03 10:51:06.1657|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:51:06.1657|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:51:06.1906|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 10:51:06.8369|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 10:51:06.8369|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 10:51:06.8559|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 663.6222ms
+2024-05-03 10:51:06.8559|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:51:06.8559|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 688.4280ms
+2024-05-03 10:52:24.1077|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 10:52:24.1233|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:52:24.1233|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 19.1218ms
+2024-05-03 10:52:24.1393|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 79
+2024-05-03 10:52:24.1515|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:52:24.1515|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:52:24.1515|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 10:52:24.3511|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 10:52:24.3522|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 10:52:24.3522|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 194.4282ms
+2024-05-03 10:52:24.3522|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:52:24.3522|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 220.3446ms
+2024-05-03 10:53:33.0602|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 110
+2024-05-03 10:53:33.0735|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:53:33.0735|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:53:33.0735|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 10:55:13.7848|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 10:55:13.7848|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:55:13.7898|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 5.0438ms
+2024-05-03 10:55:13.8095|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 79
+2024-05-03 10:55:13.8095|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:55:13.8095|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:55:13.8095|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 10:55:14.0356|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 10:55:14.0356|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 10:55:14.0413|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 218.5938ms
+2024-05-03 10:55:14.0413|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:55:14.0413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 238.7016ms
+2024-05-03 10:55:22.2670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 10:55:22.2670|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:55:22.2670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 5.7121ms
+2024-05-03 10:55:22.2898|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 79
+2024-05-03 10:55:22.2898|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 10:55:22.2898|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:55:22.2898|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 10:55:22.4657|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 10:55:22.4657|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 10:55:22.4657|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 170.3427ms
+2024-05-03 10:55:22.4657|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:55:22.4657|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 194.0372ms
+2024-05-03 10:58:35.6448|INFO|FundooNotes.Controllers.RegistrationController|Registration successful
+2024-05-03 10:58:35.6448|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 10:58:35.6504|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 302568.1596ms
+2024-05-03 10:58:35.6504|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 10:58:35.6504|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 302595.3399ms
+2024-05-03 11:08:18.6614|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:08:18.6690|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:08:18.6826|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 21.4968ms
+2024-05-03 11:08:18.6826|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 79
+2024-05-03 11:08:18.6826|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:08:18.6826|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:08:18.6826|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:08:18.8704|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:08:18.8704|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:08:18.8704|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 180.1994ms
+2024-05-03 11:08:18.8704|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:08:18.8704|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 189.9711ms
+2024-05-03 11:09:38.6303|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:09:38.6351|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:09:38.6351|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 8.8033ms
+2024-05-03 11:09:38.6556|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 79
+2024-05-03 11:09:38.6556|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:09:38.6556|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:09:38.6556|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:09:38.8121|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:09:38.8121|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:09:38.8121|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 145.839ms
+2024-05-03 11:09:38.8121|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:09:38.8121|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 164.1970ms
+2024-05-03 11:19:21.3670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - - -
+2024-05-03 11:19:21.3713|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:19:21.3713|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - 204 - - 10.4987ms
+2024-05-03 11:19:21.3917|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 48
+2024-05-03 11:19:21.3917|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:19:21.3917|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:19:21.3917|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:19:21.5477|ERROR|FundooNotes.Controllers.RegistrationController|Failed to login User with email 'user@example.com' not found.
+2024-05-03 11:19:21.6001|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 199.7754ms
+2024-05-03 11:19:21.6001|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:19:21.6076|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Repository.GlobalExceptions.NotFoundException: User with email 'user@example.com' not found.
+   at FundooNotes.Controllers.RegistrationController.UserLogin(UserLoginModel userLogin) in C:\Users\NANDINI\source\repos\FundooNote\FundooNotes\Controllers\RegistrationController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-03 11:19:21.6076|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 500 - text/plain;+charset=utf-8 219.6636ms
+2024-05-03 11:20:08.2310|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - - -
+2024-05-03 11:20:08.2310|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:20:08.2772|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - 204 - - 46.1628ms
+2024-05-03 11:20:08.2772|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 48
+2024-05-03 11:20:08.2772|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:20:08.2772|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:20:08.2772|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:20:08.4089|ERROR|FundooNotes.Controllers.RegistrationController|Failed to login User with email 'user@example.com' not found.
+2024-05-03 11:20:08.4630|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 171.258ms
+2024-05-03 11:20:08.4630|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:20:08.4630|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Repository.GlobalExceptions.NotFoundException: User with email 'user@example.com' not found.
+   at FundooNotes.Controllers.RegistrationController.UserLogin(UserLoginModel userLogin) in C:\Users\NANDINI\source\repos\FundooNote\FundooNotes\Controllers\RegistrationController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-03 11:20:08.4630|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 500 - text/plain;+charset=utf-8 187.9121ms
+2024-05-03 11:22:48.2608|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:22:48.2778|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:22:48.2908|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 30.0258ms
+2024-05-03 11:22:48.3117|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 79
+2024-05-03 11:22:48.3117|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:22:48.3205|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:22:48.3205|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:22:48.4977|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:22:48.4977|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:22:48.4977|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 177.9438ms
+2024-05-03 11:22:48.4977|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:22:48.5083|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 196.5484ms
+2024-05-03 11:25:03.5505|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - - -
+2024-05-03 11:25:03.5659|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:25:03.5659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - 204 - - 17.6853ms
+2024-05-03 11:25:03.5749|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 48
+2024-05-03 11:25:03.5749|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:25:03.5749|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:25:03.5749|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:25:03.7408|ERROR|FundooNotes.Controllers.RegistrationController|Failed to login User with email 'user@example.com' not found.
+2024-05-03 11:25:03.8059|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 221.3988ms
+2024-05-03 11:25:03.8059|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:25:03.8059|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Repository.GlobalExceptions.NotFoundException: User with email 'user@example.com' not found.
+   at FundooNotes.Controllers.RegistrationController.UserLogin(UserLoginModel userLogin) in C:\Users\NANDINI\source\repos\FundooNote\FundooNotes\Controllers\RegistrationController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-03 11:25:03.8059|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 500 - text/plain;+charset=utf-8 239.6669ms
+2024-05-03 11:32:39.3750|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - - -
+2024-05-03 11:32:39.3750|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:32:39.3834|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - 204 - - 11.0893ms
+2024-05-03 11:32:39.3834|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 48
+2024-05-03 11:32:39.4003|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:32:39.4003|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:32:39.4003|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:32:39.5986|ERROR|FundooNotes.Controllers.RegistrationController|Failed to login User with email 'user@example.com' not found.
+2024-05-03 11:32:39.6480|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 242.5102ms
+2024-05-03 11:32:39.6480|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:32:39.6522|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|Repository.GlobalExceptions.NotFoundException: User with email 'user@example.com' not found.
+   at FundooNotes.Controllers.RegistrationController.UserLogin(UserLoginModel userLogin) in C:\Users\NANDINI\source\repos\FundooNote\FundooNotes\Controllers\RegistrationController.cs:line 86
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-03 11:32:39.6522|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 500 - text/plain;+charset=utf-8 261.5703ms
+2024-05-03 11:36:03.2185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7209/api/Registration/login - - -
+2024-05-03 11:36:03.2515|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported'
+2024-05-03 11:36:03.2515|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported'
+2024-05-03 11:36:03.2515|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7209/api/Registration/login - 405 0 - 36.3772ms
+2024-05-03 11:39:53.4477|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - - -
+2024-05-03 11:39:53.4477|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:39:53.4477|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration/login - 204 - - 6.1487ms
+2024-05-03 11:39:53.4724|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration/login - application/json 56
+2024-05-03 11:39:53.4724|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:39:53.4809|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:39:53.4809|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserLogin", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserLogin(ModelLayer.Registration.UserLoginModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:39:53.9560|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:39:53.9560|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes) in 474.2442ms
+2024-05-03 11:39:53.9623|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserLogin (FundooNotes)'
+2024-05-03 11:39:53.9623|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration/login - 200 - application/json;+charset=utf-8 491.8289ms
+2024-05-03 11:44:02.4490|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:44:02.4490|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:44:02.4674|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 18.5953ms
+2024-05-03 11:44:02.4674|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 96
+2024-05-03 11:44:02.4800|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:44:02.4966|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:44:02.4966|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:46:57.2638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:46:57.2817|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:46:57.2817|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 20.1405ms
+2024-05-03 11:46:57.2817|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 96
+2024-05-03 11:46:57.2918|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:46:57.2918|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:46:57.2918|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:46:57.8431|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:46:57.8431|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:46:57.8431|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 550.5349ms
+2024-05-03 11:46:57.8431|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:46:57.8431|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 565.7293ms
+2024-05-03 11:47:15.0688|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:47:15.0724|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:47:15.0724|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 7.2456ms
+2024-05-03 11:47:15.0724|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 96
+2024-05-03 11:47:15.0724|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:47:15.0724|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:47:15.0724|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:47:15.6101|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:47:15.6101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:47:15.6101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 527.6563ms
+2024-05-03 11:47:15.6101|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:47:15.6187|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 536.9963ms
+2024-05-03 11:47:48.4731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:47:48.4836|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:47:48.4836|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 13.2363ms
+2024-05-03 11:47:48.5104|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 98
+2024-05-03 11:47:48.5251|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:47:48.5251|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:47:48.5251|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:47:49.0518|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:47:49.0518|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:47:49.0571|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 519.2985ms
+2024-05-03 11:47:49.0571|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:47:49.0571|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 550.2574ms
+2024-05-03 11:49:03.9916|INFO|FundooNotes.Controllers.RegistrationController|Registration successful
+2024-05-03 11:49:03.9933|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:49:04.0144|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 301508.0564ms
+2024-05-03 11:49:04.0144|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:49:04.0144|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 499 - application/json;+charset=utf-8 301541.9012ms
+2024-05-03 11:49:09.6139|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:49:09.6139|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:49:09.6139|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 4.1868ms
+2024-05-03 11:49:09.6219|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 98
+2024-05-03 11:49:09.6219|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:49:09.6219|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:49:09.6219|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:49:10.0972|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:49:10.0972|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:49:10.1026|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 467.3213ms
+2024-05-03 11:49:10.1026|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:49:10.1026|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 484.4218ms
+2024-05-03 11:49:20.7891|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 OPTIONS https://localhost:7209/api/Registration - - -
+2024-05-03 11:49:20.7913|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:49:20.7913|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 OPTIONS https://localhost:7209/api/Registration - 204 - - 5.1862ms
+2024-05-03 11:49:20.7913|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7209/api/Registration - application/json 98
+2024-05-03 11:49:20.7913|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2024-05-03 11:49:20.8057|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:49:20.8057|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UserRegistration", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserRegistration(ModelLayer.Registration.UserRegistrationModel) on controller FundooNotes.Controllers.RegistrationController (FundooNotes).
+2024-05-03 11:49:21.3081|ERROR|FundooNotes.Controllers.RegistrationController|Invalid Request
+2024-05-03 11:49:21.3081|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'ModelLayer.ResponseModel`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-03 11:49:21.3081|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes) in 504.028ms
+2024-05-03 11:49:21.3081|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'FundooNotes.Controllers.RegistrationController.UserRegistration (FundooNotes)'
+2024-05-03 11:49:21.3081|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7209/api/Registration - 200 - application/json;+charset=utf-8 513.6042ms

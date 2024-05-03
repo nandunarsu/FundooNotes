@@ -138,6 +138,7 @@ namespace Repository.Service
             parameters.Add("Email", userLogin.Email);
 
 
+
             string query = @"SELECT * FROM Users WHERE Email = @Email;";
 
 

@@ -42,7 +42,7 @@ namespace FundooNotes.Controllers
                 await _notesBL.CreateNote(createNoteRequest, userId);
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Note Created Successfully",
                     
                 };
@@ -75,7 +75,7 @@ namespace FundooNotes.Controllers
                     var notesList = JsonConvert.DeserializeObject<List<NoteResponse>>(cachedNote);
                     var response = new ResponseModel<IEnumerable<NoteResponse>>
                     {
-                        StatusCode = 200,
+                        Success = true,
                         Message = "Note Fetched Successfully from cache",
                         Data = notesList
                     };
@@ -92,7 +92,7 @@ namespace FundooNotes.Controllers
                     //await _cache.SetStringAsync(key, JsonConvert.SerializeObject(notes), TimeSpan.FromMinutes(10));
                     var response = new ResponseModel<IEnumerable<NoteResponse>>
                     {
-                        StatusCode = 200,
+                        Success=true,
                         Message = "Note Fetched Successfully from DB",
                         Data = notes
                     };
@@ -121,7 +121,7 @@ namespace FundooNotes.Controllers
               await _notesBL.UpdateNote(NoteId, userId, updateone);
                 var response = new ResponseModel<NoteResponse>
                 {
-                    StatusCode = 200,
+                    Success=true,
                     Message = "Note updated successfully",
                     Data = null
                     
@@ -151,7 +151,7 @@ namespace FundooNotes.Controllers
                 int userId = Convert.ToInt32(userIdClaim);
                 await _notesBL.DeleteNote(noteId, userId);
                 return Ok(new ResponseModel<string>
-                {
+                {   Success = true,
                     Message = "Note deleted successfully",
                     Data = null
                 });

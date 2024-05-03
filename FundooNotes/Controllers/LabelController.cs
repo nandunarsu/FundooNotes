@@ -32,7 +32,7 @@ namespace FundooNotes.Controllers
                 await labelbl.CreateLabel(label, userId);
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Label created "
 
                 };
@@ -58,7 +58,7 @@ namespace FundooNotes.Controllers
                 await labelbl.DeleteLabel(LabelId);
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Label deleted"
 
                 };
@@ -66,7 +66,7 @@ namespace FundooNotes.Controllers
             }
             catch(Exception ex)
             {
-                return StatusCode(500, new ResponseModel<string>
+                return BadRequest(new ResponseModel<string>
                 {
                     Success = false,
                     Message = "An error occurred while updating the notes.",
@@ -86,7 +86,7 @@ namespace FundooNotes.Controllers
                 await labelbl.UpdateLabel(label,LabelId,userId);
                 var response = new ResponseModel<String>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Label Updated",
                     Data = null
 
@@ -95,7 +95,7 @@ namespace FundooNotes.Controllers
             }
             catch(Exception ex)
             {
-                return StatusCode(500, new ResponseModel<string>
+                return BadRequest(new ResponseModel<string>
                 {
                     Success = false,
                     Message = "An error occurred while updating the notes.",
@@ -114,7 +114,7 @@ namespace FundooNotes.Controllers
                var label = await labelbl.GetAllLabelbyId();
                 return Ok(new ResponseModel<IEnumerable<LabelEntity>>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Label retrieved successfully",
                     Data = label
                 });
@@ -122,7 +122,7 @@ namespace FundooNotes.Controllers
             catch(Exception ex)
             {
 
-                return StatusCode(500, new ResponseModel<string>
+                return BadRequest(new ResponseModel<string>
                 {
                     Success = false,
                     Message = "An error occurred while updating the notes.",
@@ -140,14 +140,14 @@ namespace FundooNotes.Controllers
                 var label = await labelbl.GetAllNotesbyId(LabelId);
                 return Ok(new ResponseModel<object>
                 {
-                    StatusCode = 200,
+                    Success = true,
                     Message = "Label retrieved successfully",
                     Data = label
                 });
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new ResponseModel<string>
+                return BadRequest( new ResponseModel<string>
                 {
                     Success = false,
                     Message = "An error occurred while updating the notes.",

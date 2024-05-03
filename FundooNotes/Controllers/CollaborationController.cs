@@ -34,7 +34,7 @@ namespace FundooNotes.Controllers
                 _logger.LogInformation("Collabarator Added");
                 var response = new ResponseModel<string>
                 {
-                    StatusCode = 200,
+                    Success=true,
                     Message = "Collaboration Successfull",
 
                 };
@@ -61,7 +61,7 @@ namespace FundooNotes.Controllers
             {
                 await _collabbl.RemoveCollaborator(CollabId);
                 var response = new ResponseModel<string>
-                {
+                {Success = true,
                     Message = "Collaborator removed successfully",
                     Data = null
                 };
@@ -89,6 +89,7 @@ namespace FundooNotes.Controllers
                 var collab = await _collabbl.GetCollaboration();
                 var response = new ResponseModel<IEnumerable<CollabInfoModel>>
                 {
+                    Success = true,
                     Message = "Collaborators Fetched Successfully",
                     Data = collab
                 };

@@ -57,6 +57,14 @@ builder.Services.AddScoped<Repository.Interface.ICollaborationRL, CollaborationS
 builder.Services.AddScoped<BussinesLayer.Interface.ICollaboration, CollaborationServicebl>();
 builder.Services.AddScoped<Repository.Interface.ILabelRL, LabelRepository>();
 builder.Services.AddScoped<BussinesLayer.Interface.ILabel, LabelRepositorybl>();
+builder.Services.AddCors(Options =>
+{
+    Options.AddPolicy("AllowSpecificOrigin",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200/", "https://localhost:7209/").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+        });
+});
 
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);
 
@@ -127,6 +135,7 @@ builder.Services.AddSwaggerGen(c =>
 
 
 var app = builder.Build();
+app.UseCors("AllowSpecificOrigin");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

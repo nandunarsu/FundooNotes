@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\collaborationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\collaborationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\repository\\service\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|solutionrelative:repository\\service\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0528C7BC-24A1-4DC0-93CF-F8C5C02BFE3A}|BussinesLayer\\BussinesLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\bussineslayer\\service\\registrationservicebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0528C7BC-24A1-4DC0-93CF-F8C5C02BFE3A}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\service\\registrationservicebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\repository\\helper\\registrationdetailsforpublishing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +43,12 @@
       "RelativeMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|solutionrelative:repository\\helper\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\notecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\repository\\service\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|solutionrelative:repository\\service\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27C6AD01-FF05-48EC-8105-5D77DE316E25}|ModelLayer\\ModelLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\modellayer\\notes\\noteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27C6AD01-FF05-48EC-8105-5D77DE316E25}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\notes\\noteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\collaborationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\collaborationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\repository\\service\\collaborationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\repository\\entity\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4157A1D5-5924-4D95-AB3A-DB628190BCA3}|Repository\\RepositoryLayer.csproj|solutionrelative:repository\\entity\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0528C7BC-24A1-4DC0-93CF-F8C5C02BFE3A}|BussinesLayer\\BussinesLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\bussineslayer\\service\\registrationservicebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0528C7BC-24A1-4DC0-93CF-F8C5C02BFE3A}|BussinesLayer\\BussinesLayer.csproj|solutionrelative:bussineslayer\\service\\registrationservicebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27C6AD01-FF05-48EC-8105-5D77DE316E25}|ModelLayer\\ModelLayer.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\modellayer\\registration\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\logs\\2024-04-15.log||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\logs\\2024-04-15.log||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -161,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{459F925A-42DA-412E-82C5-DE5532F7C4D6}|FundooNotes\\FundooNotes.csproj|c:\\users\\nandini\\source\\repos\\fundoonote\\fundoonotes\\fundoonotes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -254,63 +254,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistrationDetailsForPublishing.cs",
-              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\RegistrationDetailsForPublishing.cs",
-              "RelativeDocumentMoniker": "Repository\\Helper\\RegistrationDetailsForPublishing.cs",
-              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\RegistrationDetailsForPublishing.cs",
-              "RelativeToolTip": "Repository\\Helper\\RegistrationDetailsForPublishing.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T10:46:48.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\Helper.cs",
-              "RelativeDocumentMoniker": "Repository\\Helper\\Helper.cs",
-              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\Helper.cs",
-              "RelativeToolTip": "Repository\\Helper\\Helper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T10:26:17.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "NoteController.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\NoteController.cs",
               "RelativeDocumentMoniker": "FundooNotes\\Controllers\\NoteController.cs",
               "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\NoteController.cs",
               "RelativeToolTip": "FundooNotes\\Controllers\\NoteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAHsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:27:40.792Z"
+              "WhenOpened": "2024-04-13T16:27:40.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "NotesService.cs",
-              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\NotesService.cs",
-              "RelativeDocumentMoniker": "Repository\\Service\\NotesService.cs",
-              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\NotesService.cs",
-              "RelativeToolTip": "Repository\\Service\\NotesService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAGEAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:27:41.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "RegistrationService.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\RegistrationService.cs",
               "RelativeDocumentMoniker": "Repository\\Service\\RegistrationService.cs",
               "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\RegistrationService.cs",
               "RelativeToolTip": "Repository\\Service\\RegistrationService.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAAAHkAAAA+AAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAIsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T16:27:40.757Z",
               "EditorCaption": ""
@@ -323,37 +286,115 @@
               "RelativeDocumentMoniker": "FundooNotes\\Controllers\\RegistrationController.cs",
               "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\RegistrationController.cs",
               "RelativeToolTip": "FundooNotes\\Controllers\\RegistrationController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAD8AAAAkAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAANoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:27:40.806Z"
+              "WhenOpened": "2024-04-13T16:27:40.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CollaborationController.cs",
-              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\CollaborationController.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\CollaborationController.cs",
-              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\CollaborationController.cs",
-              "RelativeToolTip": "FundooNotes\\Controllers\\CollaborationController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAIBQwCYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:27:40.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "LabelController.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\LabelController.cs",
               "RelativeDocumentMoniker": "FundooNotes\\Controllers\\LabelController.cs",
               "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\LabelController.cs",
               "RelativeToolTip": "FundooNotes\\Controllers\\LabelController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAIBJwD0AAAAsAAAA",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAHQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:27:40.785Z"
+              "WhenOpened": "2024-04-13T16:27:40.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollaborationController.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\CollaborationController.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\CollaborationController.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\CollaborationController.cs",
+              "RelativeToolTip": "FundooNotes\\Controllers\\CollaborationController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAFsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:27:40.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FundooNotes\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:27:40.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Program.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Program.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Program.cs",
+              "RelativeToolTip": "FundooNotes\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:27:40.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistrationServicebl.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\RegistrationServicebl.cs",
+              "RelativeDocumentMoniker": "BussinesLayer\\Service\\RegistrationServicebl.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\RegistrationServicebl.cs",
+              "RelativeToolTip": "BussinesLayer\\Service\\RegistrationServicebl.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T16:55:19.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotesService.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\NotesService.cs",
+              "RelativeDocumentMoniker": "Repository\\Service\\NotesService.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\NotesService.cs",
+              "RelativeToolTip": "Repository\\Service\\NotesService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAGEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:27:41.338Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\Helper.cs",
+              "RelativeDocumentMoniker": "Repository\\Helper\\Helper.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\Helper.cs",
+              "RelativeToolTip": "Repository\\Helper\\Helper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:26:17.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistrationDetailsForPublishing.cs",
+              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\RegistrationDetailsForPublishing.cs",
+              "RelativeDocumentMoniker": "Repository\\Helper\\RegistrationDetailsForPublishing.cs",
+              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Helper\\RegistrationDetailsForPublishing.cs",
+              "RelativeToolTip": "Repository\\Helper\\RegistrationDetailsForPublishing.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:46:48.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CollaborationService.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\CollaborationService.cs",
               "RelativeDocumentMoniker": "Repository\\Service\\CollaborationService.cs",
@@ -365,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "NoteResponse.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\Notes\\NoteResponse.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Notes\\NoteResponse.cs",
@@ -377,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LabelRepository.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\LabelRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Service\\LabelRepository.cs",
@@ -389,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CollaborationRequestModel.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\CollaborationRequestModel.cs",
               "RelativeDocumentMoniker": "ModelLayer\\CollaborationRequestModel.cs",
@@ -401,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "CollabInfoModel.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\Collaboration\\CollabInfoModel.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Collaboration\\CollabInfoModel.cs",
@@ -413,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\ResponseModel.cs",
               "RelativeDocumentMoniker": "ModelLayer\\ResponseModel.cs",
@@ -425,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "Repository\\Service\\AuthService.cs",
@@ -437,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Note.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Entity\\Note.cs",
               "RelativeDocumentMoniker": "Repository\\Entity\\Note.cs",
@@ -449,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Registration.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Entity\\Registration.cs",
               "RelativeDocumentMoniker": "Repository\\Entity\\Registration.cs",
@@ -461,19 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegistrationServicebl.cs",
-              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\RegistrationServicebl.cs",
-              "RelativeDocumentMoniker": "BussinesLayer\\Service\\RegistrationServicebl.cs",
-              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\RegistrationServicebl.cs",
-              "RelativeToolTip": "BussinesLayer\\Service\\RegistrationServicebl.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAIA4wCQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:55:19.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "MailSender.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\MailSender.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\MailSender.cs",
@@ -485,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "UserLoginModel.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\Registration\\UserLoginModel.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Registration\\UserLoginModel.cs",
@@ -497,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "LabelRepositorybl.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\LabelRepositorybl.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Service\\LabelRepositorybl.cs",
@@ -509,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "EmailServicebl.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\EmailServicebl.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Service\\EmailServicebl.cs",
@@ -521,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "CollaborationServicebl.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\CollaborationServicebl.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Service\\CollaborationServicebl.cs",
@@ -533,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "NotesServicebl.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Service\\NotesServicebl.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Service\\NotesServicebl.cs",
@@ -545,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "Repository\\Service\\EmailService.cs",
@@ -557,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "2024-04-11.log",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Logs\\2024-04-11.log",
               "RelativeDocumentMoniker": "FundooNotes\\Logs\\2024-04-11.log",
@@ -569,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "ILabel.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Interface\\ILabel.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Interface\\ILabel.cs",
@@ -581,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ILabelRL.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Interface\\ILabelRL.cs",
               "RelativeDocumentMoniker": "Repository\\Interface\\ILabelRL.cs",
@@ -593,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "CreateLabel.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\Label\\CreateLabel.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Label\\CreateLabel.cs",
@@ -605,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ICollaboration.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Interface\\ICollaboration.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Interface\\ICollaboration.cs",
@@ -617,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ICollaborationRL.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Interface\\ICollaborationRL.cs",
               "RelativeDocumentMoniker": "Repository\\Interface\\ICollaborationRL.cs",
@@ -629,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "INotes.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Interface\\INotes.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Interface\\INotes.cs",
@@ -641,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "NotesInterface.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\Repository\\Interface\\NotesInterface.cs",
               "RelativeDocumentMoniker": "Repository\\Interface\\NotesInterface.cs",
@@ -653,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "CreateNoteRequest.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\ModelLayer\\Notes\\CreateNoteRequest.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Notes\\CreateNoteRequest.cs",
@@ -665,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IRegistration.cs",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\BussinesLayer\\Interface\\IRegistration.cs",
               "RelativeDocumentMoniker": "BussinesLayer\\Interface\\IRegistration.cs",
@@ -677,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "2024-04-15.log",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Logs\\2024-04-15.log",
               "RelativeDocumentMoniker": "FundooNotes\\Logs\\2024-04-15.log",
@@ -689,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\appsettings.json",
               "RelativeDocumentMoniker": "FundooNotes\\appsettings.json",
@@ -701,19 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Program.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Program.cs",
-              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Program.cs",
-              "RelativeToolTip": "FundooNotes\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:27:40.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "2024-04-10.log",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Logs\\2024-04-10.log",
               "RelativeDocumentMoniker": "FundooNotes\\Logs\\2024-04-10.log",
@@ -725,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "NLog.Config",
               "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\NLog.Config",
               "RelativeDocumentMoniker": "FundooNotes\\NLog.Config",
@@ -734,18 +751,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-04-13T16:27:40.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\NANDINI\\source\\repos\\FundooNote\\FundooNotes\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "FundooNotes\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:27:40.831Z"
             },
             {
               "$type": "Document",
